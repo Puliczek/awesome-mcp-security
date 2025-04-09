@@ -13,6 +13,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - [Papers](#-papers)
   - [Articles and Blog Posts](#-articles-and-blog-posts)
   - [Videos](#-videos)
+  - [Code](#-code)
   - [Other Useful Resources](#-other-useful-resources)
  
 ## 📃 Papers
