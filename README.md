@@ -11,8 +11,6 @@
 # 😎 Contributing
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
-If you would like to add more informations:
-<br>
 [Please read and follow our Contributing guide](https://github.com/Puliczek/awesome-mcp-security/blob/main/CONTRIBUTING.md)
 
 Thanks! 🦄
