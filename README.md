@@ -29,6 +29,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
  
 ## 📕 Articles and Blog Posts
 
+- (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
 - (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
 - (01.04.2025) [MCP Security Notification: Tool Poisoning Attacks by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 - (31.03.2025) [Securing the Model Context Protocol by Alex Rosenzweig](https://block.github.io/goose/blog/2025/03/31/securing-mcp/)
