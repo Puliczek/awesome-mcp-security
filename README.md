@@ -10,11 +10,43 @@ Everything you need to know about Model Context Protocol (MCP) security.
 ## Table of Contents
 
 - [Awesome MCP Security](#awesome-mcp-security-)
-  - [Papers](#-papers)
-  - [Videos](#-videos)
-  - [Articles and Blog Posts](#-articles-and-blog-posts)
-  - [Code](#-code)
-  - [Other Useful Resources](#-other-useful-resources)
+  - 📔 [Security Considerations](#-security-considerations)
+  - 📃 [Papers](#-papers)
+  - 📺 [Videos](#-videos)
+  - 📕 [Articles and Blog Posts](#-articles-and-blog-posts)
+  - 🧑‍🚀 [Code](#-code)
+  - 💻 [Other Useful Resources](#-other-useful-resources)
+ 
+## 📔 Security Considerations
+Official Security Considerations from the [Official MCP Specification Rev: 2025-03-26](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
+
+- Servers **MUST**:
+  - Validate all tool inputs
+  - Implement proper access controls
+  - Rate limit tool invocations
+  - Sanitize tool outputs
+    
+- Clients **SHOULD**:
+  - Prompt for user confirmation on sensitive operations
+  - Show tool inputs to the user before calling the server, to avoid malicious or accidental data exfiltration
+  - Validate tool results before passing to LLM
+  - Implement timeouts for tool calls
+  - Log tool usage for audit purposes
+    
+> [!WARNING]  
+> For trust & safety and security, clients **MUST** consider tool annotations to be untrusted unless they come from trusted servers.
+
+> [!WARNING]  
+> For trust & safety and security, there **SHOULD** always be a human in the loop* with the ability to deny tool invocations.
+>
+> Applications **SHOULD**:
+>
+> - Provide UI that makes clear which tools are being exposed to the AI model.
+> - Insert clear visual indicators when tools are invoked.
+> - Present confirmation prompts to the user for operations, to ensure a human is in the loop.
+
+> [!NOTE]  
+> *Human-in-the-Loop (HITL) means that user help monitor and guide automated tasks, like deciding whether to accept tool requests in Cursor.
  
 ## 📃 Papers
 
@@ -44,6 +76,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
 
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
+- [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
 - [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
 
  
