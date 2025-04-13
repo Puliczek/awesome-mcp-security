@@ -13,7 +13,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - 📔 [Security Considerations](#-security-considerations)
   - 📃 [Papers](#-papers)
   - 📺 [Videos](#-videos)
-  - 📕 [Articles and Blog Posts](#-articles-and-blog-posts)
+  - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
   - 🧑‍🚀 [Code](#-code)
   - 💻 [Other Useful Resources](#-other-useful-resources)
  
@@ -59,8 +59,9 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (03.04.2025) [MCP Security: Vetting Servers to Mitigate Tool Poisoning Attacks by JeredBlue](https://www.youtube.com/watch?v=LYUDUOevtqk)
 - (03.04.2025) [Model Context Protocol (MCP) Security Concerns by Cory Wolff](https://www.youtube.com/watch?v=3DEqIquWCQ4)
  
-## 📕 Articles and Blog Posts
+## 📕 Articles, X threads and Blog Posts 
 
+- (11.04.2025) [Vulnerability Discovered in Base-MCP: Hackers Can Redirect Transactions on Cursor AI and Anthropic Claude by @jlwhoo7](https://x.com/jlwhoo7/status/1911056723710026120)
 - (09.04.2025) [Model Context Protocol has prompt injection security problems by Simon Willisons](https://simonwillison.net/2025/Apr/9/mcp-prompt-injection/)
 - (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
 - (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
