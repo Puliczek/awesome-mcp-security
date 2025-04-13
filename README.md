@@ -63,6 +63,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 ## 📕 Articles, X threads and Blog Posts 
 
 - (11.04.2025) [Vulnerability Discovered in Base-MCP: Hackers Can Redirect Transactions on Cursor AI and Anthropic Claude by @jlwhoo7](https://x.com/jlwhoo7/status/1911056723710026120)
+- (09.04.2025) [Here's an example of remote MCP malware that steals your .env secrets in @cursor_ai by Maciej Pulikowski](https://x.com/pulik_io/status/1910053590921535992)
 - (09.04.2025) [Model Context Protocol has prompt injection security problems by Simon Willisons](https://simonwillison.net/2025/Apr/9/mcp-prompt-injection/)
 - (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
 - (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
