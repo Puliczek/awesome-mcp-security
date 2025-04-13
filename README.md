@@ -14,7 +14,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - 📃 [Papers](#-papers)
   - 📺 [Videos](#-videos)
   - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
-  - 🧑‍🚀 [Code](#-code)
+  - 🧑‍🚀 [Tools and code](#-tools-and-code)
   - 💻 [Other Useful Resources](#-other-useful-resources)
  
 ## 📔 Security Considerations
@@ -74,7 +74,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
 
-## 🧑‍🚀 Code
+## 🧑‍🚀 Tools and code
+- (10.04.2025) [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
 - (07.04.2025) [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 
 ## 💻 Other Useful Resources
