@@ -62,16 +62,22 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (11.04.2025) [Diving Into the MCP Authorization Specification by Allen Zhou](https://www.descope.com/blog/post/mcp-auth-spec)
 - (11.04.2025) [Vulnerability Discovered in Base-MCP: Hackers Can Redirect Transactions on Cursor AI and Anthropic Claude by @jlwhoo7](https://x.com/jlwhoo7/status/1911056723710026120)
 - (09.04.2025) [Here's an example of remote MCP malware that steals your .env secrets in @cursor_ai by Maciej Pulikowski](https://x.com/pulik_io/status/1910053590921535992)
+- (09.04.2025) [Old Security Rakes In New MCP Yards by Den Delimarsky](https://den.dev/blog/security-rakes-mcp/)
 - (09.04.2025) [Model Context Protocol has prompt injection security problems by Simon Willisons](https://simonwillison.net/2025/Apr/9/mcp-prompt-injection/)
+- (07.04.2025) [(RFC) Update the Authorization specification for MCP servers #284 by localden](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/284)
+- (07.04.2025) [Improving The Model Context Protocol Authorization Spec - One RFC At A Time by Den Delimarsky](https://den.dev/blog/model-context-protocol-oauth-rfc/)
 - (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
 - (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
 - (07.04.2025) [An Introduction to MCP and Authorization by auth0](https://auth0.com/blog/an-introduction-to-mcp-and-authorization/)
 - (06.04.2025) [The “S” in MCP Stands for Security by Elena Cross](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b)
 - (04.04.2025) [MCP Servers are not safe! by Mehul Gupta](https://medium.com/data-science-in-your-pocket/mcp-servers-are-not-safe-bfbc2bb7aef8)
+- (03.04.2025) [Let's fix OAuth in MCP by Aaron Parecki](https://aaronparecki.com/2025/04/03/15/oauth-for-model-context-protocol)
 - (03.04.2025) [MCP Resource Poisoning Prompt Injection Attacks by Bernard IQ](https://www.bernardiq.com/blog/resource-poisoning/)
 - (01.04.2025) [MCP Security Notification: Tool Poisoning Attacks by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
+- (31.03.2025) [The MCP Authorization Spec Is... a Mess for Enterprise by Christian Posta](https://blog.christianposta.com/the-updated-mcp-oauth-spec-is-a-mess/)
 - (31.03.2025) [Securing the Model Context Protocol by Alex Rosenzweig](https://block.github.io/goose/blog/2025/03/31/securing-mcp/)
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
