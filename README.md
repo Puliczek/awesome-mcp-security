@@ -20,6 +20,9 @@ Everything you need to know about Model Context Protocol (MCP) security.
 ## 📔 Security Considerations
 Official Security Considerations from the [Official MCP Specification Rev: 2025-03-26](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
 
+> [!NOTE] 
+> 15.04.2025: The current MCP [auth specification](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) is in progress of being replaced by a more [robust specification](https://github.com/modelcontextprotocol/specification/pull/284). Please join the conversation if you have concerns around the current auth specification.
+
 - Servers **MUST**:
   - Validate all tool inputs
   - Implement proper access controls
