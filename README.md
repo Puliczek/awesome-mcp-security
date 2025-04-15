@@ -84,6 +84,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (31.03.2025) [Securing the Model Context Protocol by Alex Rosenzweig](https://block.github.io/goose/blog/2025/03/31/securing-mcp/)
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
+- (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 
 ## 🧑‍🚀 Tools and code
 - (15.04.2025) [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
