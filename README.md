@@ -88,6 +88,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 
 ## 🧑‍🚀 Tools and code
+- (15.04.2025) [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
 - (15.04.2025) [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
 - (10.04.2025) [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
 - (09.04.2025) [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
