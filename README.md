@@ -65,6 +65,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (13.04.2025) [Everything Wrong with MCP by Shrivu Shankar](https://blog.sshh.io/p/everything-wrong-with-mcp)
 - (11.04.2025) [Diving Into the MCP Authorization Specification by Allen Zhou](https://www.descope.com/blog/post/mcp-auth-spec)
 - (11.04.2025) [Vulnerability Discovered in Base-MCP: Hackers Can Redirect Transactions on Cursor AI and Anthropic Claude by @jlwhoo7](https://x.com/jlwhoo7/status/1911056723710026120)
 - (09.04.2025) [Here's an example of remote MCP malware that steals your .env secrets in @cursor_ai by Maciej Pulikowski](https://x.com/pulik_io/status/1910053590921535992)
