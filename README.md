@@ -77,6 +77,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
 
 ## 🧑‍🚀 Tools and code
+- (15.04.2025) [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
 - (10.04.2025) [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
 - (07.04.2025) [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 
