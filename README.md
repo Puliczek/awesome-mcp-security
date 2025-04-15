@@ -65,6 +65,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (15.04.2025) [Model Context Protocol (MCP) aka Multiple Cybersecurity Perils by Chris Martorella](https://chrismartorella.ghost.io/model-context-protocol-mcp-aka-multiple-cybersecurity-perils/)
 - (14.04.2025) [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by slowmist](https://github.com/slowmist/MCP-Security-Checklist)
 - (13.04.2025) [Everything Wrong with MCP by Shrivu Shankar](https://blog.sshh.io/p/everything-wrong-with-mcp)
 - (11.04.2025) [Diving Into the MCP Authorization Specification by Allen Zhou](https://www.descope.com/blog/post/mcp-auth-spec)
