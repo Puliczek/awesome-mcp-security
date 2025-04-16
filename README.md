@@ -15,6 +15,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - 📺 [Videos](#-videos)
   - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
   - 🧑‍🚀 [Tools and code](#-tools-and-code)
+  - 💾 [MCP Security Servers](#-mcp-security-servers)
   - 💻 [Other Useful Resources](#-other-useful-resources)
  
 ## 📔 Security Considerations
@@ -97,6 +98,19 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (09.04.2025) [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
 - (07.04.2025) [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 
+## 💾 MCP Security Servers
+- [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) - MCP server for automatic reverse engineering in Ghidra, a software reverse engineering platform.
+- [IDA-Pro-MCP](https://github.com/mrexodia/ida-pro-mcp) - MCP server for reverse engineering in IDA Pro, a tool for analyzing software and binary files.
+- [binaryninja-mcp](https://github.com/MCPPhalanx/binaryninja-mcp) - MCP server for Binary Ninja, a binary analysis tool.
+- [Burp Suite MCP](https://github.com/PortSwigger/mcp-server) - MCP integration for web security testing in Burp Suite, a security testing tool for web applications.
+- [BloodHound-MCP-AI](https://github.com/MorDavid/BloodHound-MCP-AI) - MCP server integration for BloodHound, a tool for analyzing Active Directory domains.
+- [RoadRecon MCP](https://github.com/atomicchonk/roadrecon_mcp_server) - MCP server for Azure AD data analysis with ROADRecon, a tool for mapping Azure Active Directory environments.
+- [Jadx MCP Plugin](https://github.com/mobilehackinglab/jadx-mcp-plugin) - Jadx plugin for MCP server access via HTTP, used for decompiling Android apps.
+- [VirusTotal MCP Server](https://github.com/BurtTheCoder/mcp-virustotal) - MCP server for querying the VirusTotal API, a service for analyzing files and URLs for viruses.
+- [Shodan MCP Server](https://github.com/BurtTheCoder/mcp-shodan) - MCP server for querying the Shodan API, which provides data on Internet-connected devices.
+- [DNStwist MCP Server](https://github.com/BurtTheCoder/mcp-dnstwist) - MCP server for DNS fuzzing with dnstwist, a tool for detecting phishing and domain takeover threats.
+- [Maigret MCP Server](https://github.com/BurtTheCoder/mcp-maigret) - MCP server for OSINT data collection with Maigret, a tool that gathers user info from various sources.
+  
 ## 💻 Other Useful Resources
 
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
