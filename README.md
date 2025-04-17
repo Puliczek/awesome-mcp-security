@@ -66,6 +66,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (17.04.2025) [MCP Not Safe - Reasons and Ideas by Phala Network](https://phala.network/posts/MCP-Not-Safe-Reasons-and-Ideas)
 - (15.04.2025) [Model Context Protocol (MCP) aka Multiple Cybersecurity Perils by Chris Martorella](https://chrismartorella.ghost.io/model-context-protocol-mcp-aka-multiple-cybersecurity-perils/)
 - (14.04.2025) [Security Analysis: Potential AI Agent Hijacking via MCP and A2A Protocol Insights by Nicky](https://medium.com/@foraisec/security-analysis-potential-ai-agent-hijacking-via-mcp-and-a2a-protocol-insights-cd1ec5e6045f)
 - (14.04.2025) [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by slowmist](https://github.com/slowmist/MCP-Security-Checklist)
