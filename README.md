@@ -105,6 +105,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 
 ## 💾 MCP Security Servers
+- [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
 - [GhidraMCP by LaurieWired](https://github.com/LaurieWired/GhidraMCP) - MCP server for automatic reverse engineering in Ghidra, a software reverse engineering platform.
 - [IDA-Pro-MCP by mrexodia](https://github.com/mrexodia/ida-pro-mcp) - MCP server for reverse engineering in IDA Pro, a tool for analyzing software and binary files.
 - [binaryninja-mcp by MCPPhalanx](https://github.com/MCPPhalanx/binaryninja-mcp) - MCP server for Binary Ninja, a binary analysis tool.
