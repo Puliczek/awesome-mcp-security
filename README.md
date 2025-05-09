@@ -66,6 +66,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (02.05.2025) [Security Best Practices by Model Context Protocol](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices)
 - (19.04.2025) [OAuth's Role in MCP Security by Gunnar Peterson](https://defensiblesystems.substack.com/p/oauths-role-in-mcp-security)
 - (17.04.2025) [MCP Not Safe - Reasons and Ideas by Phala Network](https://phala.network/posts/MCP-Not-Safe-Reasons-and-Ideas)
 - (15.04.2025) [MCP can be a security nightmare for building AI Agents by Rakesh Gohel](https://www.linkedin.com/posts/rakeshgohel01_mcp-can-be-a-security-nightmare-for-building-activity-7317536567315636225-zKFp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB_LYZwBepPqbIN5g8KzxPVSyzHNUgJhBew)
