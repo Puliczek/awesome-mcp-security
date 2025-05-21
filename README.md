@@ -69,6 +69,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (20.05.2025) [MCP Security in 2025] (https://www.prompthub.us/blog/mcp-security-in-2025)
 - (20.05.2025) [Securing the Model Context Protocol: Building a safer agentic future on Windows](https://blogs.windows.com/windowsexperience/2025/05/19/securing-the-model-context-protocol-building-a-safer-agentic-future-on-windows/)
 - (02.05.2025) [Security Best Practices by Model Context Protocol](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices)
 - (19.04.2025) [OAuth's Role in MCP Security by Gunnar Peterson](https://defensiblesystems.substack.com/p/oauths-role-in-mcp-security)
