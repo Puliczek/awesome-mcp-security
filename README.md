@@ -69,6 +69,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📕 Articles, X threads and Blog Posts 
 
+- (26.05.2025) [GitHub MCP Exploited: Accessing private repositories via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-github-vulnerability)
 - (20.05.2025) [Securing the Model Context Protocol: Building a safer agentic future on Windows](https://blogs.windows.com/windowsexperience/2025/05/19/securing-the-model-context-protocol-building-a-safer-agentic-future-on-windows/)
 - (16.05.2025) [MCP Security in 2025](https://www.prompthub.us/blog/mcp-security-in-2025)
 - (02.05.2025) [Security Best Practices by Model Context Protocol](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices)
