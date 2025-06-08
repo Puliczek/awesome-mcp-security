@@ -62,6 +62,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📺 Videos
 
+- (17.05.2025) [A2A - MCP SECURITY Threats: Protect your AI Agents by Discover AI](https://www.youtube.com/watch?v=h_6unQxHyb4)
 - (11.04.2025) [This MCP Server Trick Can Steal Your API Keys by Prompt Engineering](https://www.youtube.com/watch?v=86e49wcXst4)
 - (09.04.2025) [MCP Servers are Security Nightmares... by Better Stack](https://www.youtube.com/watch?v=CRKYNyMc4PM)
 - (03.04.2025) [MCP Security: Vetting Servers to Mitigate Tool Poisoning Attacks by JeredBlue](https://www.youtube.com/watch?v=LYUDUOevtqk)
