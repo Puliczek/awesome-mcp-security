@@ -114,6 +114,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
 - [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
 - [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
+- [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
 
 ## 💾 MCP Security Servers
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
