@@ -69,8 +69,9 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (09.04.2025) [MCP Servers are Security Nightmares... by Better Stack](https://www.youtube.com/watch?v=CRKYNyMc4PM)
 - (03.04.2025) [MCP Security: Vetting Servers to Mitigate Tool Poisoning Attacks by JeredBlue](https://www.youtube.com/watch?v=LYUDUOevtqk)
 - (03.04.2025) [Model Context Protocol (MCP) Security Concerns by Cory Wolff](https://www.youtube.com/watch?v=3DEqIquWCQ4)
- 
-## 📕 Articles, X threads and Blog Posts 
+- (02.06.2025) [Agentic Access: OAuth Isn't Enough | Zero Trust for AI Agents w/ Nick Taylor (Pomerium + MCP)](https://www.youtube.com/watch?v=KY1kCZkqUh0)
+
+## 📕 Articles, X threads and Blog Posts
 
 - (30.05.2025) [Poison everywhere: No output from your MCP server is safe by Simcha Kosman](https://www.cyberark.com/resources/threat-research-blog/poison-everywhere-no-output-from-your-mcp-server-is-safe)
 - (26.05.2025) [GitHub MCP Exploited: Accessing private repositories via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-github-vulnerability)
@@ -105,6 +106,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
+- (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
 - [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
@@ -131,7 +133,11 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Shodan MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-shodan) - MCP server for querying the Shodan API, which provides data on Internet-connected devices.
 - [DNStwist MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-dnstwist) - MCP server for DNS fuzzing with dnstwist, a tool for detecting phishing and domain takeover threats.
 - [Maigret MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-maigret) - MCP server for OSINT data collection with Maigret, a tool that gathers user info from various sources.
-  
+- [pomerium/pomerium](https://github.com/pomerium/pomerium) - Identity-aware proxy with native support for Zero Trust access, now including MCP support.
+  - Example implementations:
+    - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
+    - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
+
 ## 💻 Other Useful Resources
 
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
