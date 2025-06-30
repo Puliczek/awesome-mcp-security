@@ -78,7 +78,10 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (20.05.2025) [Securing the Model Context Protocol: Building a safer agentic future on Windows](https://blogs.windows.com/windowsexperience/2025/05/19/securing-the-model-context-protocol-building-a-safer-agentic-future-on-windows/)
 - (16.05.2025) [MCP Security in 2025](https://www.prompthub.us/blog/mcp-security-in-2025)
 - (02.05.2025) [Security Best Practices by Model Context Protocol](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices)
+- (23.04.2025) [How MCP servers can steal your conversation history by Keith Hoodlet](https://blog.trailofbits.com/2025/04/23/how-mcp-servers-can-steal-your-conversation-history)
+- (21.04.2025) [Jumping the line: How MCP servers can attack you before you ever use them](https://blog.trailofbits.com/2025/04/21/jumping-the-line-how-mcp-servers-can-attack-you-before-you-ever-use-them/)
 - (19.04.2025) [OAuth's Role in MCP Security by Gunnar Peterson](https://defensiblesystems.substack.com/p/oauths-role-in-mcp-security)
+- (17.04.2025) [Research Briefing: MCP Security by Rami McCarthy](https://www.wiz.io/blog/mcp-security-research-briefing)
 - (17.04.2025) [MCP Not Safe - Reasons and Ideas by Phala Network](https://phala.network/posts/MCP-Not-Safe-Reasons-and-Ideas)
 - (15.04.2025) [MCP can be a security nightmare for building AI Agents by Rakesh Gohel](https://www.linkedin.com/posts/rakeshgohel01_mcp-can-be-a-security-nightmare-for-building-activity-7317536567315636225-zKFp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB_LYZwBepPqbIN5g8KzxPVSyzHNUgJhBew)
 - (15.04.2025) [Model Context Protocol (MCP) aka Multiple Cybersecurity Perils by Chris Martorella](https://chrismartorella.ghost.io/model-context-protocol-mcp-aka-multiple-cybersecurity-perils/)
@@ -105,10 +108,15 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (31.03.2025) [Securing the Model Context Protocol by Alex Rosenzweig](https://block.github.io/goose/blog/2025/03/31/securing-mcp/)
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
+- (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
+
+- [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
+- [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
+- [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
 - [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
 - [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
 - [mcpscan.ai](https://mcpscan.ai/)
@@ -121,6 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
 
 ## 💾 MCP Security Servers
+- [RunReveal MCP Server](https://docs.runreveal.com/reference/model-context-protocol) - MCP server for RunReveal to query security logs at scale
+- [Semgrep MCP Server](https://github.com/semgrep/mcp) - MCP server for using Semgrep to scan code for vulnerabilities
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
 - [GhidraMCP by LaurieWired](https://github.com/LaurieWired/GhidraMCP) - MCP server for automatic reverse engineering in Ghidra, a software reverse engineering platform.
 - [IDA-Pro-MCP by mrexodia](https://github.com/mrexodia/ida-pro-mcp) - MCP server for reverse engineering in IDA Pro, a tool for analyzing software and binary files.
