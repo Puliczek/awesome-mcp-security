@@ -54,6 +54,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📃 Papers
 
+- (2025-05) [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
 - (2025-05) [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623)
 - (2025-04) [Simplified and Secure MCP Gateways for Enterprise AI Integration by Ivo Brett](https://arxiv.org/abs/2504.19997)
 - (2025-04) [MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System by Sonu Kumar, Anubhav Girdhar, Ritesh Patil, Divyansh Tripathi](https://arxiv.org/abs/2504.12757)
