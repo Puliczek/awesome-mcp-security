@@ -73,7 +73,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
-- (19.06.2025) [Catl CTRL Threat Research: PoC Attack Targeting Atlassian's Model Context Protocol (MCP) Introduces New "Living Off AI" Risk](https://www.catonetworks.com/blog/cato-ctrl-poc-attack-targeting-atlassians-mcp/)
+- (19.06.2025) [Cato CTRL Threat Research: PoC Attack Targeting Atlassian's Model Context Protocol (MCP) Introduces New "Living Off AI" Risk](https://www.catonetworks.com/blog/cato-ctrl-poc-attack-targeting-atlassians-mcp/)
 - (18.06.2025) [Asana Discloses Data Exposure Bug in MCP Server by Greg Pollock](https://www.upguard.com/blog/asana-discloses-data-exposure-bug-in-mcp-server)
 - (30.05.2025) [Poison everywhere: No output from your MCP server is safe by Simcha Kosman](https://www.cyberark.com/resources/threat-research-blog/poison-everywhere-no-output-from-your-mcp-server-is-safe)
 - (26.05.2025) [GitHub MCP Exploited: Accessing private repositories via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-github-vulnerability)
