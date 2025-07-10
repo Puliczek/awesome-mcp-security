@@ -74,11 +74,16 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (19.06.2025) [Cato CTRL Threat Research: PoC Attack Targeting Atlassian's Model Context Protocol (MCP) Introduces New "Living Off AI" Risk](https://www.catonetworks.com/blog/cato-ctrl-poc-attack-targeting-atlassians-mcp/)
+- (18.06.2025) [Asana Discloses Data Exposure Bug in MCP Server by Greg Pollock](https://www.upguard.com/blog/asana-discloses-data-exposure-bug-in-mcp-server)
 - (30.05.2025) [Poison everywhere: No output from your MCP server is safe by Simcha Kosman](https://www.cyberark.com/resources/threat-research-blog/poison-everywhere-no-output-from-your-mcp-server-is-safe)
 - (26.05.2025) [GitHub MCP Exploited: Accessing private repositories via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-github-vulnerability)
 - (20.05.2025) [Securing the Model Context Protocol: Building a safer agentic future on Windows](https://blogs.windows.com/windowsexperience/2025/05/19/securing-the-model-context-protocol-building-a-safer-agentic-future-on-windows/)
 - (16.05.2025) [MCP Security in 2025](https://www.prompthub.us/blog/mcp-security-in-2025)
 - (02.05.2025) [Security Best Practices by Model Context Protocol](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices)
+- (30.04.2025) [Insecure credential storage plagues MCP by Keith Hoodlet](https://blog.trailofbits.com/2025/04/30/insecure-credential-storage-plagues-mcp/)
+- (29.04.2025) [Deceiving users with ANSI terminal codes in MCP by Keith Hoodlet](https://blog.trailofbits.com/2025/04/29/deceiving-users-with-ansi-terminal-codes-in-mcp/)
+- (29.04.2025) [Building Own MCP - Augmented LLM for Threat Hunting by Eito Tamura](https://tierzerosecurity.co.nz/2025/04/29/mcp-llm.htm)
 - (23.04.2025) [How MCP servers can steal your conversation history by Keith Hoodlet](https://blog.trailofbits.com/2025/04/23/how-mcp-servers-can-steal-your-conversation-history)
 - (21.04.2025) [Jumping the line: How MCP servers can attack you before you ever use them](https://blog.trailofbits.com/2025/04/21/jumping-the-line-how-mcp-servers-can-attack-you-before-you-ever-use-them/)
 - (19.04.2025) [OAuth's Role in MCP Security by Gunnar Peterson](https://defensiblesystems.substack.com/p/oauths-role-in-mcp-security)
@@ -114,7 +119,12 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
-
+- [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
+- [MCP Guardian - Manage your LLM's access to MCP servers by eqtylab](https://github.com/eqtylab/mcp-guardian)
+- [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
+- [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
+- [MCP Watch - Vulnerability scanner for MCP servers](https://github.com/kapilduraphe/mcp-watch)
+- [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
 - [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
 - [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
@@ -130,9 +140,11 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
 
 ## 💾 MCP Security Servers
+- [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
+- [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
+- [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
 - [RunReveal MCP Server](https://docs.runreveal.com/reference/model-context-protocol) - MCP server for RunReveal to query security logs at scale
 - [Semgrep MCP Server](https://github.com/semgrep/mcp) - MCP server for using Semgrep to scan code for vulnerabilities
-- [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
 - [GhidraMCP by LaurieWired](https://github.com/LaurieWired/GhidraMCP) - MCP server for automatic reverse engineering in Ghidra, a software reverse engineering platform.
 - [IDA-Pro-MCP by mrexodia](https://github.com/mrexodia/ida-pro-mcp) - MCP server for reverse engineering in IDA Pro, a tool for analyzing software and binary files.
 - [binaryninja-mcp by MCPPhalanx](https://github.com/MCPPhalanx/binaryninja-mcp) - MCP server for Binary Ninja, a binary analysis tool.
@@ -151,6 +163,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 💻 Other Useful Resources
 
+- [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
 - [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
