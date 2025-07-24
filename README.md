@@ -160,6 +160,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
   - Example implementations:
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
+- [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
 ## 💻 Other Useful Resources
 
