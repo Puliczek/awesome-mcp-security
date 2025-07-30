@@ -74,6 +74,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (24.07.2025) [Security Advisory: Anthropic's Slack MCP Server Vulnerable to Data Exfiltration by WUNDERWUZZI](https://embracethered.com/blog/posts/2025/security-advisory-anthropic-slack-mcp-server-data-leakage/)
 - (05.07.2025) [Neon official remote MCP exploited!](https://www.tramlines.io/blog/neon-official-remote-mcp-exploited-and-guardrailed-with-tramlines)
 - (19.06.2025) [Cato CTRL Threat Research: PoC Attack Targeting Atlassian's Model Context Protocol (MCP) Introduces New "Living Off AI" Risk](https://www.catonetworks.com/blog/cato-ctrl-poc-attack-targeting-atlassians-mcp/)
 - (18.06.2025) [Asana Discloses Data Exposure Bug in MCP Server by Greg Pollock](https://www.upguard.com/blog/asana-discloses-data-exposure-bug-in-mcp-server)
