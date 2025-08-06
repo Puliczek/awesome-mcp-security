@@ -77,6 +77,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
 - (24.07.2025) [Security Advisory: Anthropic's Slack MCP Server Vulnerable to Data Exfiltration by WUNDERWUZZI](https://embracethered.com/blog/posts/2025/security-advisory-anthropic-slack-mcp-server-data-leakage/)
 - (11.07.2025) [Securing Model Context Protocol (MCP) with Teleport and AWS](https://goteleport.com/blog/securing-model-context-protocol-with-teleport-and-aws)
+- (10.07.2025) [Critical mcp-remote Vulnerability Enables Remote Code Execution, Impacting 437,000+ Downloads by Ravie Lakshmanan](https://thehackernews.com/2025/07/critical-mcp-remote-vulnerability.html)
 - (06.07.2025) [Combine the Supabase MCP with another MCP that provides exposure to untrusted tokens and a way to send data back out again by Simon Willison](https://x.com/simonw/status/1941674715720057258)
 - (05.07.2025) [Neon official remote MCP exploited!](https://www.tramlines.io/blog/neon-official-remote-mcp-exploited-and-guardrailed-with-tramlines)
 - (19.06.2025) [Cato CTRL Threat Research: PoC Attack Targeting Atlassian's Model Context Protocol (MCP) Introduces New "Living Off AI" Risk](https://www.catonetworks.com/blog/cato-ctrl-poc-attack-targeting-atlassians-mcp/)
