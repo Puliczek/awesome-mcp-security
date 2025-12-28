@@ -172,6 +172,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Shodan MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-shodan) - MCP server for querying the Shodan API, which provides data on Internet-connected devices.
 - [DNStwist MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-dnstwist) - MCP server for DNS fuzzing with dnstwist, a tool for detecting phishing and domain takeover threats.
 - [Maigret MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-maigret) - MCP server for OSINT data collection with Maigret, a tool that gathers user info from various sources.
+- [MCP Cybersec Watchdog by girste](https://github.com/girste/mcp-cybersec-watchdog) - Comprehensive security audit tool for Linux servers. Analyzes firewall, SSH hardening, threats, fail2ban, Docker, and kernel hardening with actionable recommendations.
 - [pomerium/pomerium](https://github.com/pomerium/pomerium) - Identity-aware proxy with native support for Zero Trust access, now including MCP support.
   - Example implementations:
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
