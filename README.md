@@ -1,203 +1,269 @@
-<div align="center" >🤝 Show your support - give a ⭐️ if you liked the content
-</div>
+# Awesome DevOps MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
----
+A curated list of awesome Model Context Protocol (MCP) servers focused on DevOps tools and capabilities.
 
-# **Awesome MCP Security [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)**
+## What is MCP?
 
-Everything you need to know about Model Context Protocol (MCP) security.
+[MCP](https://modelcontextprotocol.io/) is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on DevOps-related MCP servers that extend AI capabilities through cloud infrastructure management, CLI operations, version control, security scanning, and other DevOps-related services.
 
-## Table of Contents
+## Related Resources
 
-- [Awesome MCP Security](#awesome-mcp-security-)
-  - 📔 [Security Considerations](#-security-considerations)
-  - 📃 [Papers](#-papers)
-  - 📺 [Videos](#-videos)
-  - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
-  - 🧑‍🚀 [Tools and code](#-tools-and-code)
-  - 💾 [MCP Security Servers](#-mcp-security-servers)
-  - 💻 [Other Useful Resources](#-other-useful-resources)
- 
-## 📔 Security Considerations
-Official Security Considerations from the [Official MCP Specification Rev: 2025-03-26](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
+- [awesome](https://github.com/sindresorhus/awesome#readme) - Awesome lists about all kinds of interesting topics.
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers/) - A comprehensive list of all MCP servers.
+- [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) - A list of MCP clients.
 
-> [!NOTE] 
-> 15.04.2025: The current MCP [auth specification](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) is in progress of being replaced by a more [robust specification](https://github.com/modelcontextprotocol/specification/pull/284). Please join the conversation if you have concerns around the current auth specification.
+## Legend
 
-- Servers **MUST**:
-  - Validate all tool inputs
-  - Implement proper access controls
-  - Rate limit tool invocations
-  - Sanitize tool outputs
-    
-- Clients **SHOULD**:
-  - Prompt for user confirmation on sensitive operations
-  - Show tool inputs to the user before calling the server, to avoid malicious or accidental data exfiltration
-  - Validate tool results before passing to LLM
-  - Implement timeouts for tool calls
-  - Log tool usage for audit purposes
-    
-> [!WARNING]  
-> For trust & safety and security, clients **MUST** consider tool annotations to be untrusted unless they come from trusted servers.
+- 🎖️ – official implementation
+- programming language
+  - 🐍 – Python codebase
+  - 📇 – TypeScript (or JavaScript) codebase
+  - 🏎️ – Go codebase
+  - 🦀 – Rust codebase
+  - #️⃣ - C# Codebase
+  - ☕ - Java codebase
+- scope
+  - ☁️ - Cloud Service
+  - 🏠 - Local Service
+  - 📟 - Embedded Systems
+- operating system
+  - 🍎 – For macOS
+  - 🪟 – For Windows
+  - 🐧 - For Linux
 
-> [!WARNING]  
-> For trust & safety and security, there **SHOULD** always be a human in the loop* with the ability to deny tool invocations.
->
-> Applications **SHOULD**:
->
-> - Provide UI that makes clear which tools are being exposed to the AI model.
-> - Insert clear visual indicators when tools are invoked.
-> - Present confirmation prompts to the user for operations, to ensure a human is in the loop.
+## Server Implementations
 
-> [!NOTE]  
-> *Human-in-the-Loop (HITL) means that user help monitor and guide automated tasks, like deciding whether to accept tool requests in Cursor.
- 
-## 📃 Papers
+## Cloud Infrastructure
 
-- (2025-08) [Systematic Analysis of MCP Security](https://arxiv.org/pdf/2508.12538)
-- (2025-05) [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
-- (2025-05) [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623)
-- (2025-04) [Simplified and Secure MCP Gateways for Enterprise AI Integration by Ivo Brett](https://arxiv.org/abs/2504.19997)
-- (2025-04) [MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System by Sonu Kumar, Anubhav Girdhar, Ritesh Patil, Divyansh Tripathi](https://arxiv.org/abs/2504.12757)
-- (2025-04) [MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits by Brandon Radosevich, John Halloran](https://arxiv.org/abs/2504.03767)
-- (2025-03) [Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions by Xinyi Hou, Yanjie Zhao, Shenao Wang, Haoyu Wang](https://arxiv.org/abs/2503.23278)
+### 🏗️ Infrastructure as Code
+Tools for managing infrastructure through code, including Terraform, Pulumi, and other IaC platforms.
 
-## 📺 Videos
+- [dulltz/mcp-server-hcp-terraform](https://github.com/dulltz/mcp-server-hcp-terraform) 🐍 ☁️ - MCP server for working with HashiCorp Cloud Platform (HCP) Terraform, enabling AI assistants to interact with Terraform Cloud resources.
+- [guilhermeyoshida/mcp-terraform-assistant](https://github.com/guilhermeyoshida/mcp-terraform-assistant) 🐍 🏠 - An MCP server for managing infrastructure as code using Terraform.
+- [jashkahar/Terraform-MCP-Server](https://github.com/jashkahar/Terraform-MCP-Server) 🐍 ☁️ - This project provides an MCP server that exposes Terraform infrastructure-as-code operations through natural language.
+- [nwiizo/tfmcp](https://github.com/nwiizo/tfmcp) 🦀 🏠 - A Terraform MCP server allowing AI assistants to manage and operate Terraform environments, enabling reading configurations, analyzing plans, applying configurations, and managing Terraform state.
+- [pulumi/mcp-server](https://github.com/pulumi/mcp-server) 🎖️ 📇 🏠 - MCP server for interacting with Pulumi using the Pulumi Automation API and Pulumi Cloud API. Enables MCP clients to perform Pulumi operations like retrieving package information, previewing changes, deploying updates, and retrieving stack outputs programmatically.
+- [severity1/terraform-cloud-mcp](https://github.com/severity1/terraform-cloud-mcp) 🐍 ☁️ - A Model Context Protocol server that integrates AI assistants with the Terraform Cloud API, allowing you to manage your infrastructure.
+- [thrash888/terraform-mcp-server](https://github.com/thrash888/terraform-mcp-server) 📇 ☁️ - Terraform Registry MCP Server for interacting with Terraform registries.
+- [westonplatter/mcp-terraform-python](https://github.com/westonplatter/mcp-terraform-python) 🐍 🏠 - MCP server to run terraform operations locally.
+- [stakpak/mcp](https://github.com/stakpak/mcp) 🦀 - MCP Server for interacting, editing and generating code for Terraform, Kubernetes, GithubActions and Dockerfile.
 
-- (13.06.2025) [MCP Auth: The Future of AI Agent Security - by Arcade.dev](https://youtu.be/zj29lslZxFg?si=j1YYkhycoQcE_rJ0)
-- (17.05.2025) [A2A - MCP SECURITY Threats: Protect your AI Agents by Discover AI](https://www.youtube.com/watch?v=h_6unQxHyb4)
-- (06.05.2025) [Making MCP Production Ready – Building MCP for Enterprise - by Arcade.dev](https://youtu.be/f1sLBGWnByc?si=wwa7Qm_vDM7VyElr)
-- (11.04.2025) [This MCP Server Trick Can Steal Your API Keys by Prompt Engineering](https://www.youtube.com/watch?v=86e49wcXst4)
-- (09.04.2025) [MCP Servers are Security Nightmares... by Better Stack](https://www.youtube.com/watch?v=CRKYNyMc4PM)
-- (03.04.2025) [MCP Security: Vetting Servers to Mitigate Tool Poisoning Attacks by JeredBlue](https://www.youtube.com/watch?v=LYUDUOevtqk)
-- (03.04.2025) [Model Context Protocol (MCP) Security Concerns by Cory Wolff](https://www.youtube.com/watch?v=3DEqIquWCQ4)
-- (02.06.2025) [Agentic Access: OAuth Isn't Enough | Zero Trust for AI Agents w/ Nick Taylor (Pomerium + MCP)](https://www.youtube.com/watch?v=KY1kCZkqUh0)
+### 🐳 Container Orchestration
+Tools for managing containers, Kubernetes clusters, and related orchestration platforms.
 
-## 📕 Articles, X threads and Blog Posts
+- [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) 🐍 ☁️/🏠 - A Model Context Protocol (MCP) server for Kubernetes that enables AI assistants like Claude, Cursor, and others to interact with Kubernetes clusters through natural language.
+- [alexei-led/k8s-mcp-server](https://github.com/alexei-led/k8s-mcp-server) 🐍 🏠 - A lightweight yet robust server that empowers AI assistants to securely execute Kubernetes CLI commands (`kubectl`, `helm`, `istioctl`, and `argocd`) using Unix pipes in a safe Docker environment with multi-architecture support.
+- [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes) 📇 ☁️/🏠 - Typescript implementation of Kubernetes cluster operations for pods, deployments, services.
+- [manusa/kubernetes-mcp-server](https://github.com/manusa/kubernetes-mcp-server) 🏎️ 🏠 - A powerful Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for any Kubernetes resource, this server provides specialized tools to interact with your cluster.
+- [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp) 🏎️ ☁️/🏠 - A powerful MCP server that enables AI assistants to seamlessly interact with Portainer instances, providing natural language access to container management, deployment operations, and infrastructure monitoring capabilities.
+- [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server) 🐍 ☁️/🏠 - A Model Context Protocol (MCP) server for Kubernetes that enables AI assistants like Claude, Cursor, and others to interact with Kubernetes clusters through natural language.
+- [rrmistry/tilt-mcp](https://github.com/rrmistry/tilt-mcp) 🐍 🏠 🍎 🪟 🐧 - Model Context Protocol server that integrates with Tilt to provide programmatic access to Tilt resources, logs, and management operations for Kubernetes development environments.
+- [strowk/mcp-k8s-go](https://github.com/strowk/mcp-k8s-go) 🏎️ ☁️/🏠 - Kubernetes cluster operations through MCP.
+- [weibaohui/k8m](https://github.com/weibaohui/k8m) 🏎️ ☁️/🏠 - Provides MCP multi-cluster Kubernetes management and operations, featuring a management interface, logging, and nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources.
+- [weibaohui/kom](https://github.com/weibaohui/kom) 🏎️ ☁️/🏠 - Provides MCP multi-cluster Kubernetes management and operations. It can be integrated as an SDK into your own project and includes nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources.
+- [wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye) 🏎️ ☁️/🏠 - MCP Server for kubernetes management, and analyze your cluster, application health.
+- [kocierik/mcp-nomad](https://github.com/kocierik/mcp-nomad) 🏎️ ☁️/🏠 - MCP Server for nomad management, and analyze your cluster, application health, logs and ACL.
+- [aadarshjain/kubectl-mcp-server](https://github.com/aadarshjain/kubectl-mcp-server) 🐍 🏠 - A STDIO based MCP server for Kubernetes that interacts seamlessly with your local clusters (~/.kube/config) using `kubectl` CLI commands. Uses read-only operations by default to prevent accidental modifications/deletion of K8s resources.
 
-- (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
-- (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
-- (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
-- (24.07.2025) [Security Advisory: Anthropic's Slack MCP Server Vulnerable to Data Exfiltration by WUNDERWUZZI](https://embracethered.com/blog/posts/2025/security-advisory-anthropic-slack-mcp-server-data-leakage/)
-- (11.07.2025) [Securing Model Context Protocol (MCP) with Teleport and AWS](https://goteleport.com/blog/securing-model-context-protocol-with-teleport-and-aws)
-- (10.07.2025) [Critical mcp-remote Vulnerability Enables Remote Code Execution, Impacting 437,000+ Downloads by Ravie Lakshmanan](https://thehackernews.com/2025/07/critical-mcp-remote-vulnerability.html)
-- (06.07.2025) [Combine the Supabase MCP with another MCP that provides exposure to untrusted tokens and a way to send data back out again by Simon Willison](https://x.com/simonw/status/1941674715720057258)
-- (05.07.2025) [Neon official remote MCP exploited!](https://www.tramlines.io/blog/neon-official-remote-mcp-exploited-and-guardrailed-with-tramlines)
-- (19.06.2025) [Cato CTRL Threat Research: PoC Attack Targeting Atlassian's Model Context Protocol (MCP) Introduces New "Living Off AI" Risk](https://www.catonetworks.com/blog/cato-ctrl-poc-attack-targeting-atlassians-mcp/)
-- (18.06.2025) [Asana Discloses Data Exposure Bug in MCP Server by Greg Pollock](https://www.upguard.com/blog/asana-discloses-data-exposure-bug-in-mcp-server)
-- (30.05.2025) [Poison everywhere: No output from your MCP server is safe by Simcha Kosman](https://www.cyberark.com/resources/threat-research-blog/poison-everywhere-no-output-from-your-mcp-server-is-safe)
-- (26.05.2025) [GitHub MCP Exploited: Accessing private repositories via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-github-vulnerability)
-- (20.05.2025) [Securing the Model Context Protocol: Building a safer agentic future on Windows](https://blogs.windows.com/windowsexperience/2025/05/19/securing-the-model-context-protocol-building-a-safer-agentic-future-on-windows/)
-- (16.05.2025) [MCP Security in 2025](https://www.prompthub.us/blog/mcp-security-in-2025)
-- (02.05.2025) [Security Best Practices by Model Context Protocol](https://modelcontextprotocol.io/specification/draft/basic/security_best_practices)
-- (30.04.2025) [Insecure credential storage plagues MCP by Keith Hoodlet](https://blog.trailofbits.com/2025/04/30/insecure-credential-storage-plagues-mcp/)
-- (29.04.2025) [Deceiving users with ANSI terminal codes in MCP by Keith Hoodlet](https://blog.trailofbits.com/2025/04/29/deceiving-users-with-ansi-terminal-codes-in-mcp/)
-- (29.04.2025) [Building Own MCP - Augmented LLM for Threat Hunting by Eito Tamura](https://tierzerosecurity.co.nz/2025/04/29/mcp-llm.htm)
-- (23.04.2025) [How MCP servers can steal your conversation history by Keith Hoodlet](https://blog.trailofbits.com/2025/04/23/how-mcp-servers-can-steal-your-conversation-history)
-- (21.04.2025) [Jumping the line: How MCP servers can attack you before you ever use them](https://blog.trailofbits.com/2025/04/21/jumping-the-line-how-mcp-servers-can-attack-you-before-you-ever-use-them/)
-- (19.04.2025) [OAuth's Role in MCP Security by Gunnar Peterson](https://defensiblesystems.substack.com/p/oauths-role-in-mcp-security)
-- (17.04.2025) [Research Briefing: MCP Security by Rami McCarthy](https://www.wiz.io/blog/mcp-security-research-briefing)
-- (17.04.2025) [MCP Not Safe - Reasons and Ideas by Phala Network](https://phala.network/posts/MCP-Not-Safe-Reasons-and-Ideas)
-- (15.04.2025) [MCP can be a security nightmare for building AI Agents by Rakesh Gohel](https://www.linkedin.com/posts/rakeshgohel01_mcp-can-be-a-security-nightmare-for-building-activity-7317536567315636225-zKFp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB_LYZwBepPqbIN5g8KzxPVSyzHNUgJhBew)
-- (15.04.2025) [Model Context Protocol (MCP) aka Multiple Cybersecurity Perils by Chris Martorella](https://chrismartorella.ghost.io/model-context-protocol-mcp-aka-multiple-cybersecurity-perils/)
-- (14.04.2025) [Model Context Protocol (MCP) Security by Evren](https://evren.ninja/mcp-security.html)
-- (14.04.2025) [Security Analysis: Potential AI Agent Hijacking via MCP and A2A Protocol Insights by Nicky](https://medium.com/@foraisec/security-analysis-potential-ai-agent-hijacking-via-mcp-and-a2a-protocol-insights-cd1ec5e6045f)
-- (14.04.2025) [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by slowmist](https://github.com/slowmist/MCP-Security-Checklist)
-- (13.04.2025) [Everything Wrong with MCP by Shrivu Shankar](https://blog.sshh.io/p/everything-wrong-with-mcp)
-- (11.04.2025) [Diving Into the MCP Authorization Specification by Allen Zhou](https://www.descope.com/blog/post/mcp-auth-spec)
-- (11.04.2025) [Vulnerability Discovered in Base-MCP: Hackers Can Redirect Transactions on Cursor AI and Anthropic Claude by @jlwhoo7](https://x.com/jlwhoo7/status/1911056723710026120)
-- (09.04.2025) [Here's an example of remote MCP malware that steals your .env secrets in @cursor_ai by Maciej Pulikowski](https://x.com/pulik_io/status/1910053590921535992)
-- (09.04.2025) [Old Security Rakes In New MCP Yards by Den Delimarsky](https://den.dev/blog/security-rakes-mcp/)
-- (09.04.2025) [Model Context Protocol has prompt injection security problems by Simon Willisons](https://simonwillison.net/2025/Apr/9/mcp-prompt-injection/)
-- (07.04.2025) [(RFC) Update the Authorization specification for MCP servers #284 by localden](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/284)
-- (07.04.2025) [Improving The Model Context Protocol Authorization Spec - One RFC At A Time by Den Delimarsky](https://den.dev/blog/model-context-protocol-oauth-rfc/)
-- (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
-- (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
-- (07.04.2025) [An Introduction to MCP and Authorization by auth0](https://auth0.com/blog/an-introduction-to-mcp-and-authorization/)
-- (06.04.2025) [The “S” in MCP Stands for Security by Elena Cross](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b)
-- (04.04.2025) [MCP Servers are not safe! by Mehul Gupta](https://medium.com/data-science-in-your-pocket/mcp-servers-are-not-safe-bfbc2bb7aef8)
-- (03.04.2025) [Let's fix OAuth in MCP by Aaron Parecki](https://aaronparecki.com/2025/04/03/15/oauth-for-model-context-protocol)
-- (03.04.2025) [MCP Resource Poisoning Prompt Injection Attacks by Bernard IQ](https://www.bernardiq.com/blog/resource-poisoning/)
-- (01.04.2025) [MCP Security Notification: Tool Poisoning Attacks by invariantlabs.ai](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
-- (31.03.2025) [The MCP Authorization Spec Is... a Mess for Enterprise by Christian Posta](https://blog.christianposta.com/the-updated-mcp-oauth-spec-is-a-mess/)
-- (31.03.2025) [Securing the Model Context Protocol by Alex Rosenzweig](https://block.github.io/goose/blog/2025/03/31/securing-mcp/)
-- (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
-- (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
-- (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
-- (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
-- (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
+### ☁️ Cloud Providers
 
-## 🧑‍🚀 Tools and code
+#### AWS
+- [awslabs/mcp](https://github.com/awslabs/mcp) 🎖️ 🐍 ☁️ - Official AWS MCP server for interacting with AWS services using the Model Context Protocol. Enables AI assistants to manage AWS resources through natural language and programmatic interfaces.
+- [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) 🐍 ☁️ - A lightweight but powerful server that enables AI assistants to execute AWS CLI commands, use Unix pipes, and apply prompt templates for common AWS tasks in a safe Docker environment with multi-architecture support.
 
-- [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
-- [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
-- [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
-- [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
-- [MCP Guardian - Manage your LLM's access to MCP servers by eqtylab](https://github.com/eqtylab/mcp-guardian)
-- [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
-- [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
-- [MCP Watch - Vulnerability scanner for MCP servers](https://github.com/kapilduraphe/mcp-watch)
-- [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
-- [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
-- [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
-- [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
-- [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
-- [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
-- [mcpscan.ai](https://mcpscan.ai/)
-- [Damn Vulnerable MCP Server by harishsg993010](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
-- [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
-- [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
-- [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
-- [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
-- [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
-- [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
-- [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
-- [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
-- [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+#### Azure
+- [aaronsb/ado-mcp](https://github.com/aaronsb/ado-mcp) 📇 ☁️ - Azure DevOps MCP Server for integrating AI assistants with Azure DevOps services.
+- [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) 🐍 ☁️/🏠 - MCP Server for Azure Data Lake Storage. It can perform manage containers, read/write/upload/download operations on container files and manage file metadata.
+- [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server) 📇 ☁️/🏠 - A Model Context Protocol server for querying and analyzing Azure resources at scale using Azure Resource Graph, enabling AI assistants to explore and monitor Azure infrastructure.
+- [jdubois/azure-cli-mcp](https://github.com/jdubois/azure-cli-mcp) 🐍 ☁️ - A wrapper around the Azure CLI command line that allows you to talk directly to Azure.
+- [stefanskiasan/azure-devops-mcp-server](https://github.com/stefanskiasan/azure-devops-mcp-server) 📇 ☁️ - MCP Server for Cline to Access Azure DevOps.
+- [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) 📇 ☁️ - Azure DevOps integration for repository management, work items, and pipelines.
+- [Vortiago/mcp-azure-devops](https://github.com/Vortiago/mcp-azure-devops) 📇 ☁️ - A Model Context Protocol server enabling AI assistants to interact with Azure DevOps services via Python SDK.
 
-## 💾 MCP Security Servers
-- [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
-- [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
-- [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
-- [RunReveal MCP Server](https://docs.runreveal.com/reference/model-context-protocol) - MCP server for RunReveal to query security logs at scale
-- [Semgrep MCP Server](https://github.com/semgrep/mcp) - MCP server for using Semgrep to scan code for vulnerabilities
-- [GhidraMCP by LaurieWired](https://github.com/LaurieWired/GhidraMCP) - MCP server for automatic reverse engineering in Ghidra, a software reverse engineering platform.
-- [IDA-Pro-MCP by mrexodia](https://github.com/mrexodia/ida-pro-mcp) - MCP server for reverse engineering in IDA Pro, a tool for analyzing software and binary files.
-- [binaryninja-mcp by MCPPhalanx](https://github.com/MCPPhalanx/binaryninja-mcp) - MCP server for Binary Ninja, a binary analysis tool.
-- [Burp Suite MCP by PortSwigger](https://github.com/PortSwigger/mcp-server) - MCP integration for web security testing in Burp Suite, a security testing tool for web applications.
-- [BloodHound-MCP-AI by MorDavid](https://github.com/MorDavid/BloodHound-MCP-AI) - MCP server integration for BloodHound, a tool for analyzing Active Directory domains.
-- [RoadRecon MCP by atomicchonk](https://github.com/atomicchonk/roadrecon_mcp_server) - MCP server for Azure AD data analysis with ROADRecon, a tool for mapping Azure Active Directory environments.
-- [Jadx MCP Plugin by mobilehackinglab](https://github.com/mobilehackinglab/jadx-mcp-plugin) - Jadx plugin for MCP server access via HTTP, used for decompiling Android apps.
-- [VirusTotal MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-virustotal) - MCP server for querying the VirusTotal API, a service for analyzing files and URLs for viruses.
-- [Shodan MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-shodan) - MCP server for querying the Shodan API, which provides data on Internet-connected devices.
-- [DNStwist MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-dnstwist) - MCP server for DNS fuzzing with dnstwist, a tool for detecting phishing and domain takeover threats.
-- [Maigret MCP Server by BurtTheCoder](https://github.com/BurtTheCoder/mcp-maigret) - MCP server for OSINT data collection with Maigret, a tool that gathers user info from various sources.
-- [pomerium/pomerium](https://github.com/pomerium/pomerium) - Identity-aware proxy with native support for Zero Trust access, now including MCP support.
-  - Example implementations:
-    - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
-    - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
-- [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+#### Alibaba Cloud
+- [aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server) 🎖️ 🐍 ☁️ - A MCP server that enables AI assistants to operation resources on Alibaba Cloud, supporting ECS, Cloud Monitor, OOS and widely used cloud products.
 
-## 💻 Other Useful Resources
+#### Other Cloud Platforms
+- [bright8192/esxi-mcp-server](https://github.com/bright8192/esxi-mcp-server) 🐍 ☁️ - A VMware ESXi/vCenter management server based on MCP (Model Control Protocol), providing simple REST API interfaces for virtual machine management.
+- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) 🎖️ 📇 ☁️ - Integration with Cloudflare services including Workers, KV, R2, and D1.
+- [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix) 🏎️ 🏠/☁️ - Go-based MCP Server for interfacing with Nutanix Prism Central resources.
 
-- [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
-- (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
-- (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
-- [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
-- [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
+### 🖥️ Command Line
+Run commands, capture output and otherwise interact with shells and command line tools.
 
- 
-# 😎 Contributing
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+- [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp) 🖥️ 🛠️ 💬 - A Model Context Protocol server that provides access to iTerm. You can run commands and ask questions about what you see in the iTerm terminal.
+- [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands) 📇 🏠 - Run any command with `run_command` and `run_script` tools.
+- [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor) - Safe Python interpreter based on HF Smolagents `LocalPythonExecutor`
+- [MladenSU/cli-mcp-server](https://github.com/MladenSU/cli-mcp-server) 🐍 🏠 - Command line interface with secure execution and customizable security policies
+- [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) 🐍 🏠 - A DeepSeek MCP-like Server for Terminal
+- [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server) - A secure shell command execution server implementing the Model Context Protocol (MCP)
+- [automateyournetwork/pyATS_MCP](https://github.com/automateyournetwork/pyATS_MCP) - Cisco pyATS server enabling structured, model-driven interaction with network devices.
+- [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) 📇 🏠 🍎 🪟 🐧 - A swiss-army-knife that can manage/execute programs and read/write/search/edit code and text files.
 
-[Please read and follow our contributing guide](https://github.com/Puliczek/awesome-mcp-security/blob/main/CONTRIBUTING.md)
+### 🔄 Version Control
+Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs.
 
-Thanks! 🦄
+- [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest) 🐍 🏠 - Read and analyze GitHub repositories with your LLM
+- [ddukbg/github-enterprise-mcp](https://github.com/ddukbg/github-enterprise-mcp) 📇 ☁️ 🏠 - MCP server for GitHub Enterprise API integration
+- [gitea/gitea-mcp](https://gitea.com/gitea/gitea-mcp) 🎖️ 🏎️ ☁️ 🏠 🍎 🪟 🐧 - Interactive with Gitea instances with MCP.
+- [github/github-mcp-server](https://github.com/github/github-mcp-server) 📇 ☁️ - Official GitHub server for integration with repository management, PRs, issues, and more.
+- [kopfrechner/gitlab-mr-mcp](https://github.com/kopfrechner/gitlab-mr-mcp) 📇 ☁️ - Interact seamlessly with issues and merge requests of your GitLab projects.
+- [modelcontextprotocol/server-git](https://github.com/modelcontextprotocol/servers/tree/main/server-git) 🐍 🏠 - Direct Git repository operations including reading, searching, and analyzing local repositories
+- [modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers/tree/main/server-gitlab) 📇 ☁️ 🏠 - GitLab platform integration for project management and CI/CD operations
+- [oschina/mcp-gitee](https://github.com/oschina/gitee) 🏎️ ☁️ 🏠 - Gitee API integration, repository, issue, and pull request management, and more.
+- [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) 📇 ☁️ - Azure DevOps integration for repository management, work items, and pipelines.
 
+### 🔒 Security
+MCP servers for security operations, vulnerability scanning, and threat detection.
 
-# 🤝 Show your support
+- [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) ☕ 🏠 - A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engineer applications. Provides tools for decompiling binaries, renaming methods and data, and listing methods, classes, imports, and exports.
+- [13bm/GhidraMCP](https://github.com/13bm/GhidraMCP) 🐍 ☕ 🏠 - MCP server for integrating Ghidra with AI assistants. This plugin enables binary analysis, providing tools for function inspection, decompilation, memory exploration, and import/export analysis via the Model Context Protocol.
+- [BurtTheCoder/mcp-shodan](https://github.com/BurtTheCoder/mcp-shodan) 📇 🪟 ☁️ - MCP server for querying the Shodan API and Shodan CVEDB. This server provides tools for IP lookups, device searches, DNS lookups, vulnerability queries, CPE lookups, and more.
+- [BurtTheCoder/mcp-virustotal](https://github.com/BurtTheCoder/mcp-virustotal) 📇 🪟 ☁️ - MCP server for querying the VirusTotal API. This server provides tools for scanning URLs, analyzing file hashes, and retrieving IP address reports.
+- [fr0gger/MCP_Security](https://github.com/fr0gger/MCP_Security) 📇 ☁️ - MCP server for querying the ORKL API. This server provides tools for fetching threat reports, analyzing threat actors, and retrieving intelligence sources.
+- [girste/mcp-cybersec-watchdog](https://github.com/girste/mcp-cybersec-watchdog) 🐍 🏠 🐧 - Comprehensive security audit tool for Linux servers. Analyzes firewall, SSH hardening, threats, fail2ban, Docker, kernel hardening. Returns actionable recommendations with zero configuration.
+- [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit) 📇 ☁️ - A powerful MCP (Model Context Protocol) Server that audits npm package dependencies for security vulnerabilities. Built with remote npm registry integration for real-time security checks.
+- [semgrep/mcp](https://github.com/semgrep/mcp) 📇 ☁️ - Allow AI agents to scan code for security vulnerabilites using [Semgrep](https://semgrep.dev).
+- [slouchd/cyberchef-api-mcp-server](https://github.com/slouchd/cyberchef-api-mcp-server) 🐍 ☁️ - MCP server for interacting with the CyberChef server API which will allow an MCP client to utilise the CyberChef operations.
+- [rad-security/mcp-server](https://github.com/rad-security/mcp-server) 📇 ☁️ - MCP server for RAD Security, providing AI-powered security insights for Kubernetes and cloud environments. This server provides tools for querying the Rad Security API and retrieving security findings, reports, runtime data and many more.
+- [securityfortech/secops-mcp](https://github.com/securityfortech/secops-mcp) 🐍 🏠 - All-in-one security testing toolbox that brings together popular open source tools through a single MCP interface. Connected to an AI agent, it enables tasks like pentesting, bug bounty hunting, threat hunting, and more.
+- [roadwy/cve-search_mcp](https://github.com/roadwy/cve-search_mcp) 🐍 🏠 - A Model Context Protocol (MCP) server for querying the CVE-Search API. This server provides comprehensive access to CVE-Search, browse vendor and product、get CVE per CVE-ID、get the last updated CVEs.
+- [nickpending/mcp-recon](https://github.com/nickpending/mcp-recon) 🏎️ 🏠 - Conversational recon interface and MCP server powered by httpx and asnmap. Supports various reconnaissance levels for domain analysis, security header inspection, certificate analysis, and ASN lookup.
 
-<div>🤝 Show your support - give a ⭐️ if you liked the content</div>
+## CI/CD & DevOps Pipelines
 
-# ✔️ Disclaimer
-This project can only be used for educational purposes. Using this resource against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+### 🔄 Continuous Integration
+Tools for automating the integration of code changes and running tests.
+
+- [Tiberriver256/mcp-server-github-actions](https://github.com/Tiberriver256/mcp-server-github-actions) 📇 ☁️ - MCP server for interacting with GitHub Actions workflows, enabling AI assistants to manage CI/CD pipelines.
+- [lobehub/mcp-hello-world](https://github.com/lobehub/mcp-hello-world) 📇 ☁️ - A simple Hello World MCP server for CI/CD test.
+
+### 📱 Mobile CI/CD
+Tools specifically designed for mobile application CI/CD pipelines.
+
+- [stefanoamorelli/codemagic-mcp](https://github.com/stefanoamorelli/codemagic-mcp) 🐍 ☁️ - Codemagic CI/CD MCP Server for mobile app CI/CD pipeline management.
+
+### 🔄 DevOps Visibility
+Tools for providing visibility across the entire DevOps lifecycle.
+
+- [SBDI/mcp-devps-hub](https://github.com/SBDI/mcp-devps-hub) 🐍 🏠 - MCP server for end-to-end development visibility (Jira, GitHub, CI/CD, etc.).
+- [Acid-base/FastMCP-Proper](https://github.com/Acid-base/FastMCP-Proper) 🐍 🏠 - Python MCP server with CI/CD tooling and testability built-in.
+- [gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp) 🎖️ 📇 ☁️ - Integrates, discovers, manages, and codifies cloud resources with [Firefly](https://firefly.ai).
+
+### 👨‍💻 Code Execution
+Code execution servers. Allow LLMs to execute code in a secure environment.
+
+- [pydantic/pydantic-ai/mcp-run-python](https://github.com/pydantic/pydantic-ai/tree/main/packages/mcp-run-python) 🐍 🏠- Run Python code in a secure sandbox via MCP tool calls
+- [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js) 🎖️ 📇 ☁️ - Execute any LLM-generated code in a secure and scalable sandbox environment and create your own MCP tools using JavaScript or Python, with full support for NPM and PyPI packages
+- [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp) 🏎️ ☁️ - OpenAPI-MCP: Dockerized MCP Server to allow your AI agent to access any API with existing api docs.
+- [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp) 📇 🏠 – A Node.js MCP server that spins up isolated Docker-based sandboxes for executing JavaScript snippets with on-the-fly npm dependency installation and clean teardown
+
+### 🤖 Coding Agents
+Full coding agents that enable LLMs to read, edit, and execute code and solve general programming tasks completely autonomously.
+
+- [bgauryy/octocode-mcp](https://github.com/bgauryy/octocode-mcp) ☁️ 📇 🍎 🪟 🐧 - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem
+- [oraios/serena](https://github.com/oraios/serena) 🐍🏠 - A fully-featured coding agent that relies on symbolic code operations by using language servers.
+- [ezyang/codemcp](https://github.com/ezyang/codemcp) 🐍🏠 - Coding agent with basic read, write and command line tools.
+-   - [Wolfe-Jam/claude-faf-mcp](https://github.com/Wolfe-Jam/claude-faf-mcp)
+  📇 🏠 - First & only persistent project context MCP. Provides .faf (Foundational AI-context Format) Project DNA with 33+ tools, Podium scoring (0-100%), and format-driven architecture. Official Anthropic Registry. 10k+ npm downloads.
+- [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode) 📇 ☁️ - An MCP server that enables AI models to search, retrieve, and solve LeetCode problems. Supports metadata filtering, user profiles, submissions, and contest data access.
+- [jinzcdev/leetcode-mcp-server](https://github.com/jinzcdev/leetcode-mcp-server) 📇 ☁️ - MCP server enabling automated access to LeetCode's programming problems, solutions, submissions and public data with optional authentication for user-specific features (e.g., notes), supporting both `leetcode.com` (global) and `leetcode.cn` (China) sites.
+- [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) 📇 🏠 - A MCP Server that allows AI such as Claude to read from the directory structure in a VS Code workspace, see problems picked up by linter(s) and the language server, read code files, and make edits.
+- [scrapeless/mcp-server-scrapeless](https://github.com/scrapeless-ai/scrapeless-mcp-server) 📇☁️🍎🪟🐧 - Seamlessly integrate real-time Google SERP(Google Search, Google Flight, Google Map, Google Jobs....) results into your LLM applications using the Scrapeless MCP server.
+
+### 🔗 Aggregators
+Servers for accessing many apps and tools through a single MCP server.
+
+- [askbudi/roundtable](https://github.com/askbudi/roundtable) 🐍 🏠 - Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface.
+- [Composiohq/Rube](https://github.com/composiohq/rube) - Rube is an MCP server built on the Composio integration platform. It connects your AI tools to 500+ apps.
+- [julien040/anyquery](https://github.com/julien040/anyquery) 🏎️ 🏠 ☁️ - Query more than 40 apps with one binary using SQL. It can also connect to your PostgreSQL, MySQL, or SQLite compatible database. Local-first and private by design.
+- [metatool-ai/metatool-app](https://github.com/metatool-ai/metatool-app) 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP is the one unified middleware MCP server that manages your MCP connections with GUI.
+- [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) - Connect and unify data across various platforms and databases with [MindsDB as a single MCP server](https://docs.mindsdb.com/mcp/overview).
+- [glenngillen/mcpmcp-server](https://github.com/glenngillen/mcpmcp-server) ☁️ 📇 🍎 🪟 🐧 - A list of MCP servers so you can ask your client which servers you can use to improve your daily workflow.
+- [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go) - Local MCP proxy that aggregates multiple servers behind a single endpoint. Features BM25 tool discovery, quarantine security, activity logging, Docker isolation, and web UI.
+- [wegotdocs/open-mcp](https://github.com/wegotdocs/open-mcp) 📇 🏠 🍎 🪟 🐧 - Turn a web API into an MCP server in 10 seconds and add it to the open source registry: [https://open-mcp.org](https://open-mcp.org)
+- [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream/tree/master/packages/mcp-server) ☁️ 🏠 - Connect with 2,500 APIs with 8,000+ prebuilt tools, and manage servers for your users, in your own app.
+- [VeriTeknik/pluggedin-mcp-proxy](https://github.com/VeriTeknik/pluggedin-mcp-proxy) 📇 🏠 - A comprehensive proxy server that combines multiple MCP servers into a single interface with extensive visibility features. It provides discovery and management of tools, prompts, resources, and templates across servers, plus a playground for debugging when building MCP servers.
+- [tigranbs/mcgravity](https://github.com/tigranbs/mcgravity) 📇 🏠 - A proxy tool for composing multiple MCP servers into one unified endpoint. Scale your AI tools by load balancing requests across multiple MCP servers, similar to how Nginx works for web servers.
+- [MetaMCP](https://github.com/metatool-ai/metatool-app) 📇 ☁️ 🏠 🍎 🪟 🐧 - MetaMCP is the one unified middleware MCP server that manages your MCP connections with GUI.
+- [WayStation-ai/mcp](https://github.com/waystation-ai/mcp) ☁️ 🍎 🪟 - Seamlessly and securely connect Claude Desktop and other MCP hosts to your favorite apps (Notion, Slack, Monday, Airtable, etc.). Takes less than 90 secs.
+- [sxhxliang/mcp-access-point](https://github.com/sxhxliang/mcp-access-point) 📇 ☁️ 🏠 🍎 🪟 🐧 - Turn a web service into an MCP server in one click without making any code changes.
+Consider moving this entry to a 'Databases' section if one exists, or creating one. Database-specific tools don't fit the 'Aggregators' category which is described as 'Servers for accessing many apps and tools through a single MCP server.'
+
+### 📂 Browser Automation
+Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats.
+
+- [aircodelabs/grasp](https://github.com/aircodelabs/grasp) 📇 🏠 - Self-hosted browser using agent with built-in MCP and A2A support.
+- [Automata-Labs-team/MCP-Server-Playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright) 🐍 - An MCP server for browser automation using Playwright
+- [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 - An MCP python server using Playwright for browser automation, more suitable for llm
+- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) 🎖️ 📇 - Automate browser interactions in the cloud (e.g. web navigation, data extraction, form filling, and more)
+- [browsermcp/mcp](https://github.com/browsermcp/mcp) 📇 🏠 - Automate your local Chrome browser
+- [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) 🐍 - browser-use packaged as an MCP server with SSE transport. includes a dockerfile to run chromium in docker + a vnc server.
+- [executeautomation/mcp-playwright-server](https://github.com/executeautomation/playwright-mcp-server) 📇 - An MCP server using Playwright for browser automation and webscrapping
+- [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) 📇 🏠 - An MCP server paired with a browser extension that enables LLM clients to control the user's browser (Firefox).
+- [getrupt/ashra-mcp](https://github.com/getrupt/ashra-mcp) 🐍 🏠 - Extract structured data from any website. Just prompt and get JSON.
+- [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) 🐍 🏠 - A `minimal` server/client MCP implementation using Azure OpenAI and Playwright.
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through structured accessibility snapshots
+- [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/server-puppeteer) 📇 🏠 - Browser automation for web scraping and interaction
+- [ndthanhdev/mcp-browser-kit](https://github.com/ndthanhdev/mcp-browser-kit) 📇 🏠 - An MCP Server for interacting with manifest v2 compatible browsers.
+
+## Build Tools & Dependency Management
+
+### 🔧 Dependency Analysis
+Tools for analyzing and managing project dependencies across build systems.
+
+- [arvindand/maven-tools-mcp](https://github.com/arvindand/maven-tools-mcp) ☕ ☁️ 🏠 🍎 🪟 🐧 - Universal Maven Central dependency intelligence for JVM build tools (Maven, Gradle, SBT, Mill). Provides version lookups, dependency health checks, age analysis, release patterns, and upgrade guidance with Context7 integration.
+
+## Monitoring & Observability
+
+### 📊 Metrics & Monitoring
+Tools for collecting, querying, and analyzing metrics in DevOps environments.
+
+- [CaesarYangs/prometheus_mcp_server](https://github.com/CaesarYangs/prometheus_mcp_server) 🐍 ☁️ - A Model Context Protocol server enabling LLMs to query, analyze, and interact with Prometheus databases through predefined routes.
+- [etruong42/prometheus-mcp](https://github.com/etruong42/prometheus-mcp) 🐍 ☁️ - MCP server to connect LLMs with Prometheus HTTP API for metrics querying and analysis.
+- [loginmqv/mcp-server-prometheus](https://github.com/loginmqv/mcp-server-prometheus) 📇 ☁️ - MCP server for interacting with Prometheus, enabling AI assistants to query and analyze metrics data.
+- [pab1it0/prometheus-mcp-server](https://github.com/pab1it0/prometheus-mcp-server) 🐍 ☁️ - A Model Context Protocol server that enables AI assistants to query and analyze Prometheus metrics through standardized interfaces.
+- [VictoriaMetrics-Community/mcp-victoriametrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics) 🏎️ ☁️ - The implementation of Model Context Protocol (MCP) server for VictoriaMetrics. This provides access to your VictoriaMetrics instance and seamless integration with VictoriaMetrics APIs and documentation.
+
+### 🔔 Alerting & Notification
+Tools for managing alerts and notifications in monitoring systems.
+
+- [kaznak/alertmanager-mcp](https://github.com/kaznak/alertmanager-mcp) 📇 ☁️ - A Model Context Protocol server that integrates with Prometheus Alertmanager for alert management and notification.
+
+### 🔍 Application Performance Monitoring
+Tools for monitoring application performance and infrastructure health.
+
+- [dynatrace-oss/dynatrace-mcp](https://github.com/dynatrace-oss/dynatrace-mcp) 📇 ☁️ - MCP server for Dynatrace Observability monitoring, providing AI-powered insights into application performance and infrastructure health.
+- [last9/last9-mcp-server](https://github.com/last9/last9-mcp-server) 🏎️ ☁️ - Last9 MCP Server for observability and monitoring, providing AI assistants with access to metrics, logs, and traces.
+- [willibrandon/CursorMCPMonitor](https://github.com/willibrandon/CursorMCPMonitor) #️⃣ 🏠 - Real-time monitoring tool for Model Context Protocol interactions in Cursor AI editor. Track, analyze, and debug AI context exchanges.
+- [Polar Signals Remote MCP](https://www.polarsignals.com/blog/posts/2025/07/17/the-mcp-for-performance-engineering) 🐍 ☁️ - MCP server for Polar Signals Cloud continuous profiling platform, enabling AI assistants to analyze CPU performance, memory usage, and identify optimization opportunities in production systems.
+
+## Project & Service Management
+
+### 🎫 Ticketing Systems
+Tools for managing customer support tickets and helpdesk operations.
+
+- [effytech/freshdesk-mcp](https://github.com/effytech/freshdesk_mcp) 🐍 ☁️ - MCP server that integrates with Freshdesk, enabling AI models to interact with Freshdesk modules and perform various support operations.
+- [dbsanfte/topdesk-mcp](https://github.com/dbsanfte/topdesk-mcp) 🐍 ☁️ - MCP server for the Topdesk ticketing system, allowing AI models to interact with and add comments to incident tickets.
+
+### 📋 Project Management
+Tools for managing projects, issues, and workflows.
+
+- [nguyenvanduocit/jira-mcp](https://github.com/nguyenvanduocit/jira-mcp) 🏎️ ☁️ - A Go-based MCP connector for Jira that enables AI assistants like Claude to interact with Atlassian Jira. This tool provides a seamless interface for AI models to perform common Jira operations including issue management, sprint planning, and workflow transitions.
+- [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) 🐍 ☁️ - MCP server for Atlassian products (Confluence and Jira). Supports Confluence Cloud, Jira Cloud, and Jira Server/Data Center. Provides comprehensive tools for searching, reading, creating, and managing content across Atlassian workspaces.
+
+## Frameworks
+
+- [MervinPraison/praisonai-mcp](https://github.com/MervinPraison/praisonai-mcp) 🐍 🏠 ☁️ - AI Agents framework with 64+ built-in MCP tools for automation, including search, memory, workflows, code execution, and file operations.
+Frameworks for building your own MCP servers.
+
+- [FastMCP](https://github.com/jlowin/fastmcp) 🐍 - A high-level framework for building MCP servers in Python
+- [FastMCP](https://github.com/punkpeye/fastmcp) 📇 - A high-level framework for building MCP servers in TypeScript
+
+## Contributing
+
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
