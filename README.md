@@ -116,6 +116,7 @@ Interact with Git repositories and version control platforms. Enables repository
 ### 🔒 Security
 MCP servers for security operations, vulnerability scanning, and threat detection.
 
+- (01.03.2026) [MolTrust MCP Server by MoltyCel](https://github.com/MoltyCel/moltrust-mcp-server) 🐍 🏠 ☁️ - Decentralized agent identity and reputation toolkit — DID creation, trust scoring, credential verification, and ERC-8004 on-chain identity integration. 11 tools for verifying agent identities and managing trust.
 - [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) ☕ 🏠 - A Model Context Protocol server for Ghidra that enables LLMs to autonomously reverse engineer applications. Provides tools for decompiling binaries, renaming methods and data, and listing methods, classes, imports, and exports.
 - [13bm/GhidraMCP](https://github.com/13bm/GhidraMCP) 🐍 ☕ 🏠 - MCP server for integrating Ghidra with AI assistants. This plugin enables binary analysis, providing tools for function inspection, decompilation, memory exploration, and import/export analysis via the Model Context Protocol.
 - [BurtTheCoder/mcp-shodan](https://github.com/BurtTheCoder/mcp-shodan) 📇 🪟 ☁️ - MCP server for querying the Shodan API and Shodan CVEDB. This server provides tools for IP lookups, device searches, DNS lookups, vulnerability queries, CPE lookups, and more.
