@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Frostbyte MCP Server](https://github.com/Robocular/frostbyte-mcp) - MCP server with IP geolocation, DNS lookup, and screenshot tools for security investigations. Provides OSINT capabilities including IP-to-location mapping, domain resolution, and webpage capture.
 
 ## 💻 Other Useful Resources
 
