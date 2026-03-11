@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [MolTrust MCP Server by MoltyCel](https://github.com/MoltyCel/moltrust-mcp-server) - 30 MCP tools for agent trust verification: DID-based identity, sybil detection, trust scoring (0-100), 8-point skill security audits (detects prompt injection, data exfiltration, scope violations), and Verifiable Credential issuance. `pip install moltrust-mcp-server`.
 
 ## 💻 Other Useful Resources
 
