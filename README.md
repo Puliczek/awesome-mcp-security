@@ -135,6 +135,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
 - [MCP Guardian - Manage your LLM's access to MCP servers by eqtylab](https://github.com/eqtylab/mcp-guardian)
 - [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
+- [AgentShield by elliotllliu](https://github.com/elliotllliu/agent-shield) - Open-source security scanner for AI agent skills, MCP servers, and plugins. 30 detection rules with AST taint tracking, cross-file data flow analysis, kill chain detection, multi-language prompt injection (8 languages), and description-code integrity checks. Zero install via npx, 100% offline.
 - [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
 - [MCP Watch - Vulnerability scanner for MCP servers](https://github.com/kapilduraphe/mcp-watch)
 - [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
