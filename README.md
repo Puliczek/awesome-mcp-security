@@ -135,6 +135,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
 - [MCP Guardian - Manage your LLM's access to MCP servers by eqtylab](https://github.com/eqtylab/mcp-guardian)
 - [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
+- [AgentShield by elliotllliu](https://github.com/elliotllliu/agent-shield) - Open-source security scanner for AI agent skills, MCP servers, and plugins. 30 detection rules with AST taint tracking, cross-file data flow analysis, kill chain detection, multi-language prompt injection (8 languages), and description-code integrity checks. Zero install via npx, 100% offline.
 - [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
 - [MCP Watch - Vulnerability scanner for MCP servers](https://github.com/kapilduraphe/mcp-watch)
 - [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
@@ -154,6 +155,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [AgentShield](https://github.com/elliotllliu/agent-shield) - Full-stack security scanner for AI agent skills, MCP servers, and plugins. 31 rules for prompt injection, data exfiltration, backdoors, tool poisoning, and cross-file attack chains. Includes MCP runtime proxy, Python AST taint tracking, and multi-language injection detection (8 languages). Free, offline, zero-config (`npx @elliotllliu/agent-shield scan ./path/`).
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
