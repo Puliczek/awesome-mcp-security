@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [rustchain-mcp](https://github.com/Scottcjn/rustchain-mcp) - MCP server for RustChain blockchain with 6-point hardware fingerprinting (clock drift, cache timing, SIMD identity, thermal drift, instruction jitter, anti-emulation), VM/container detection, and Ed25519 attestation verification.
 
 ## 💻 Other Useful Resources
 
