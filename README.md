@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [Red Team / Blue Team Agent Fabric - 189 security tests for AI agent systems including MCP wire-protocol harness (10 tests sending real JSON-RPC 2.0), A2A protocol harness, L402 payment flow harness, 20 enterprise platform adapters, GTG-1002 APT simulation. NIST AI 800-2 aligned. Zero dependencies.](https://github.com/msaleme/red-team-blue-team-agent-fabric)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
