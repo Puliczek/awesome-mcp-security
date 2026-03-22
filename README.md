@@ -141,6 +141,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
 - [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
+- [ClawSec - Security audit platform for AI agent skills with automated 5-tier assessments and vulnerability detection for 33,000+ skills](https://clawsec.cc)
+- [ClawSearch - Security-first skill discovery engine with Trust Score ratings, knowledge graph analysis, and pre-install security guard](https://clawsearch.cc)
 - [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
 - [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
 - [mcpscan.ai](https://mcpscan.ai/)
