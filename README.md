@@ -154,6 +154,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [Open Agent Trust Registry (OATR) by FransDevelopment](https://github.com/FransDevelopment/open-agent-trust-registry) - Federated trust registry for agent runtime identity verification. Ed25519 JWT attestations, signed tamper-evident manifest, automated CI-verified registration (domain verification + proof-of-key-ownership), local-only verification. npm SDK: [@open-agent-trust/registry](https://www.npmjs.com/package/@open-agent-trust/registry). 7 issuers, 3 ratified specs via the [Agent Identity Working Group](https://github.com/corpollc/qntm/issues/5).
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
