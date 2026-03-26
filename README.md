@@ -130,6 +130,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 ## 🧑‍🚀 Tools and code
 
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
+- [Clarvia - AEO scoring and quality scanner for MCP servers. Audits documentation, error handling, security posture, and agent readiness across 15,400+ tools](https://clarvia.art)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
