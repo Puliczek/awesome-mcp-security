@@ -178,6 +178,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
+- [CyberLens AI by shadoprizm](https://github.com/shadoprizm/cyberlens-mcp-server) - MCP server for security scanning websites, public repositories, and Claw Hub skills. 15 checks locally (no account), 70+ via cloud API. `npx -y @shadoprizm/cyberlens-mcp-server`
 ## 💻 Other Useful Resources
 
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
