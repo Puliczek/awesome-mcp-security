@@ -129,8 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [Signet](https://github.com/Prismer-AI/signet) - Ed25519-signed action receipts and append-only hash-chained local audit logs for AI agent and MCP tool calls. Includes a CLI, TypeScript MCP middleware, and Python bindings. No MCP server changes required.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
-- [Prismer-AI/signet](https://github.com/Prismer-AI/signet) - Cryptographic action receipts for AI agents and MCP tool calls. Signs every tool call with Ed25519, writes append-only hash-chained local audit logs, and verifies receipts offline. Includes a CLI, TypeScript MCP middleware, and Python bindings. No MCP server changes required.
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
