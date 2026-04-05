@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Access by Scottpedia0](https://github.com/Scottpedia0/access) - Self-hosted API gateway for AI agents. One Bearer token, all your services. OAuth, token refresh, audit logging — agents never touch credentials. Built-in MCP server.
 
 ## 💻 Other Useful Resources
 
