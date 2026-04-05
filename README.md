@@ -156,6 +156,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
+- [Haldir by ExposureGuard](https://github.com/ExposureGuard/haldir) - Guardian layer for AI agents: scoped sessions with spend limits (Gate), AES-encrypted secrets (Vault), immutable audit trail with anomaly detection (Watch), and proxy mode that intercepts every MCP tool call for policy enforcement. Human-in-the-loop approvals, webhooks. 98/100 on Smithery. [haldir.xyz](https://haldir.xyz)
+- [ExposureGuard MCP](https://github.com/ExposureGuard/exposureguard-mcp) - Domain security scanning for AI agents. 8-check audit (SPF, DMARC, SSL, headers, DNSSEC, open ports), A-F grades, copy-paste fix snippets. 100/100 on Smithery. [getexposureguard.com](https://getexposureguard.com)
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
