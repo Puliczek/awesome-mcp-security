@@ -177,6 +177,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Overloop CLI by Sortlist](https://github.com/sortlist/overloop-cli) - AI-powered outbound engine CLI for sourcing prospects from 450M+ contacts, launching email + LinkedIn campaigns, and managing conversations. JSON output, agent-native. Install via `npm i -g overloop-cli`.
+- [Signals CLI by Sortlist](https://github.com/sortlist/signals-cli) - Intent signal monitoring CLI for OSINT and threat intelligence workflows. Track LinkedIn engagers, keyword posters, job changers, and funding events. JSON output for agent pipelines. Install via `npm i -g signals-sortlist-cli`.
 
 ## 💻 Other Useful Resources
 
