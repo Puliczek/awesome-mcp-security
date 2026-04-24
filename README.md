@@ -178,6 +178,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
+- [EnigmAgent by Agnuxo1](https://github.com/Agnuxo1/EnigmAgent) - AES-256-GCM + Argon2id encrypted local vault MCP server for AI agent credentials. Resolves `{{PLACEHOLDER}}` secrets at runtime so API keys never appear in prompts, logs, or LLM context. `npx enigmagent-mcp`
+
 ## 💻 Other Useful Resources
 
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
