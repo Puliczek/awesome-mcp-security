@@ -126,6 +126,9 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
+- (24.09.2025) [ChatGPT MCP Connector Security Vulnerability: Zero-Click Data Exfiltration by Repello AI](https://repello.ai/blog/chatgpt-mcp-connector-security-vulnerability-zero-click-data-exfiltration-attack)
+- (10.07.2025) [Zero-Click Calendar Exfiltration Reveals MCP Security Risk in 11.ai by Repello AI](https://repello.ai/blog/zero-click-calendar-exfiltration-reveals-mcp-security-risk-in-11-ai)
+- (17.04.2025) [MCP Tool Poisoning to RCE by Repello AI](https://repello.ai/blog/mcp-tool-poisoning-to-rce)
 
 ## 🧑‍🚀 Tools and code
 
@@ -154,6 +157,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [SkillCheck by Repello AI](https://skills.repello.ai/) - Free hosted scanner that audits MCP skills and AI agent tools for prompt injection, data exfiltration, and security issues before deployment.
+- [mcp-exploit-demo by Repello AI](https://github.com/Repello-AI/mcp-exploit-demo) - Reproducible POC demonstrating SSH key exfiltration via MCP tool poisoning (rug pull method) against Cursor.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
