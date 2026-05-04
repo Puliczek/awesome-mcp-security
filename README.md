@@ -201,3 +201,5 @@ Thanks! 🦄
 
 # ✔️ Disclaimer
 This project can only be used for educational purposes. Using this resource against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+
+- [EventTrader MCP Server](https://github.com/eventtrader/event-trader-mcp) — Trade prediction markets via MCP. Pre-launch TGE token price predictions, CLOB exchange with 9 pairs, 10 AI trading agents on Base L2. [Endpoint](https://cymetica.com/.well-known/mcp.json) | [Platform](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=mcp-outreach)
