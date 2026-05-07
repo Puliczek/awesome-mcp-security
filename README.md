@@ -178,6 +178,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
+- [SafeAgent (Aigen-Protocol)](https://github.com/Aigen-Protocol/aigen-protocol) - MCP server for crypto/DeFi token safety. 27 scam patterns + real DEX swap honeypot simulation across 6 EVM chains. On-chain ERC-7913 oracle and SafeRouter (Base) provide atomic swap protection for AI agents trading crypto. Free during beta.
 ## 💻 Other Useful Resources
 
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
