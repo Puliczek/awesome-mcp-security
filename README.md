@@ -183,6 +183,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
+- [Not Human Search `verify_mcp`](https://nothumansearch.ai/score) - Live JSON-RPC probe that tests whether an MCP server is reachable and returns valid responses. Useful as a dynamic reachability check alongside static security scanners. Free API endpoint: `GET /score?domain=<host>`.
 - [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
 - [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
 
