@@ -54,7 +54,9 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📃 Papers
 
+- (2025-12) [MCP-SafetyBench: A Benchmark for Safety Evaluation of LLMs with Real-World MCP Servers by Xuanjun Zong et al.](https://arxiv.org/abs/2512.15163)
 - (2025-08) [Systematic Analysis of MCP Security](https://arxiv.org/pdf/2508.12538)
+- (2025-08) [MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers by Zhiqiang Wang, Yichao Gao et al.](https://arxiv.org/abs/2508.14925)
 - (2025-05) [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
 - (2025-05) [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623)
 - (2025-04) [Simplified and Secure MCP Gateways for Enterprise AI Integration by Ivo Brett](https://arxiv.org/abs/2504.19997)
