@@ -178,6 +178,12 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
+- [MITRE ATLAS MCP by CSOAI-ORG](https://github.com/CSOAI-ORG/mitre-atlas-mcp) - MCP server for the MITRE ATLAS adversarial AI threat catalog (ML supply chain attacks, prompt injection, model evasion). Maps to OWASP LLM Top 10.
+- [Agent Prompt Injection Firewall by CSOAI-ORG](https://github.com/CSOAI-ORG/agent-prompt-injection-firewall-mcp) - MCP server defending against OWASP LLM01 prompt injection. Multi-layer detection: regex, embeddings, behavioural drift. MITRE ATLAS-mapped.
+- [CISA KEV MCP by CSOAI-ORG](https://github.com/CSOAI-ORG/cisa-kev-mcp) - MCP server for the CISA Known Exploited Vulnerabilities catalog with BOD 22-01 patching SLA tracking.
+- [MITRE ATT&CK MCP by CSOAI-ORG](https://github.com/CSOAI-ORG/mitre-attack-mcp) - MCP server for the MITRE ATT&CK adversary tactic + technique catalog with STIX 2.1 export.
+- [Agent Audit Logger by CSOAI-ORG](https://github.com/CSOAI-ORG/agent-audit-logger-mcp) - MCP server providing a tamper-evident append-only event log for agent actions. Merkle-root anchored, Sigstore-signed snapshots.
+
 ## 💻 Other Useful Resources
 
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
