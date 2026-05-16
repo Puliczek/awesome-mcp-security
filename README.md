@@ -154,6 +154,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [skill-audit-mcp by eltociear](https://github.com/eltociear/skill-audit-mcp) - MCP server + GitHub Action that scans MCP servers and Claude skills for 68 attack patterns (prompt injection, tool poisoning, RCE, exfiltration). Also available as a paid x402 endpoint and pre-commit hook.
+- [secrets-audit-mcp by eltociear](https://github.com/eltociear/secrets-audit-mcp) - MCP server for detecting leaked secrets (AWS / GCP / Azure / GitHub / Stripe / OpenAI / Anthropic and 25+ other providers) inside MCP servers, skills, and source trees before they ship.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
