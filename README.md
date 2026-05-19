@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [npmguard by AyoubTadlaoui](https://github.com/AyoubTadlaoui/npmguard) - MCP server providing a pre-install risk gate for npm packages. Scores packages on eight supply-chain signals (typosquats, OSV malware advisories, lifecycle scripts, sole-maintainer risk, repo health) so AI coding agents like Claude Code and Cursor get a verdict before `npm install` runs.
 
 ## 💻 Other Useful Resources
 
