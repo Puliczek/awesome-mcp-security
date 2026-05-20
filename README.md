@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [CausalLayer MCP](https://github.com/smq9sn5jck-coder/causallayer-mcp) - Deterministic AI liability attribution engine. Returns signed, hash-chained, Bitcoin-anchored CausalCertificateV1 receipts allocating fault between AI agents in security incidents. Includes PII scanning guardrails, jurisdiction-aware regulatory mapping, and tamper-evident audit trail.
 
 ## 💻 Other Useful Resources
 
