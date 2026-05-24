@@ -185,6 +185,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
 - [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
 - [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
  
 # 😎 Contributing
