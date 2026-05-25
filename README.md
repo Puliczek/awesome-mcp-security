@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (25.05.2026) [Lurkr by AgentVeil](https://github.com/agentveil-protocol/lurkr) - Local, read-only scanner for MCP and AI-agent repositories; cross-checks manifests against Python tool/code reach, flags undeclared capability surfaces, external MCP endpoints, shell tools without approval metadata, and credential-to-LLM flows.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
