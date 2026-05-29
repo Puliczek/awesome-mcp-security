@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [misp-mcp-server by ppcvote](https://github.com/ppcvote/misp-mcp-server) - MCP server wrapping the MISP (Malware Information Sharing Platform) REST API for LLM agents, with built-in adversarial-seeding defense. Every MISP response is scanned via [prompt-defense-audit](https://github.com/ppcvote/prompt-defense-audit) before reaching the LLM — important because MISP attributes can be poisoned by federated feed contributors as an under-discussed attack vector for SOC analyst agents. 8 read-only tools (events, attributes, search, tags, feeds, galaxies). Tracks [MISP/MISP#10745](https://github.com/MISP/MISP/issues/10745) (MCP request from the MISP team). MIT.
 
 ## 💻 Other Useful Resources
 
