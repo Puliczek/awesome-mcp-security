@@ -157,6 +157,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
+- [VulnFeed by infai-tech](https://github.com/infai-tech/vulnfeed-mcp) - MCP server that scans dependency lockfiles (npm, PyPI, Go, crates.io, RubyGems, Packagist) for known CVEs from NVD + GitHub Advisories, prioritizes findings by EPSS exploit probability, and recommends exact fix versions.
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
 - [RunReveal MCP Server](https://docs.runreveal.com/reference/model-context-protocol) - MCP server for RunReveal to query security logs at scale
