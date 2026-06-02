@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [mcp-config-lint - Lint and security-check your Claude Desktop MCP config by basilalshukaili](https://github.com/basilalshukaili/mcp-config-lint) - Detects token exposure, path traversal risks, suspicious commands, and misconfigured servers in `claude_desktop_config.json`. CI-friendly, zero dependencies. `pip install mcp-config-lint`
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
