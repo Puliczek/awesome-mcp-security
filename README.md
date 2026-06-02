@@ -178,6 +178,9 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
+- [meok-mcp-injection-scan-mcp by MEOK AI Labs](https://github.com/CSOAI-ORG/meok-mcp-injection-scan-mcp) - MCP server that scans other MCP servers for prompt-injection, tool-poisoning, and SSRF vulnerabilities across 30+ canonical rules, with optional signed safety reports for procurement.
+- [agent-prompt-injection-firewall-mcp by MEOK AI Labs](https://github.com/CSOAI-ORG/agent-prompt-injection-firewall-mcp) - Real-time prompt-injection firewall for AI agents and MCP tool calls (identity, policy, rate-limit, audit).
+
 ## 💻 Other Useful Resources
 
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
