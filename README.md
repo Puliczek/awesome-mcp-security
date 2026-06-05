@@ -128,7 +128,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
-
+- [Interlock by MaazAhmed47](https://github.com/MaazAhmed47/Interlock) - Open-source runtime security gateway for MCP agents with continuous drift detection (baselines tools at approval, quarantines them if schema/effects/data access change), deterministic argument bounds, and tamper-evident audit receipts.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
