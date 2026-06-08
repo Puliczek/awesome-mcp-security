@@ -61,6 +61,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (2025-04) [MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System by Sonu Kumar, Anubhav Girdhar, Ritesh Patil, Divyansh Tripathi](https://arxiv.org/abs/2504.12757)
 - (2025-04) [MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits by Brandon Radosevich, John Halloran](https://arxiv.org/abs/2504.03767)
 - (2025-03) [Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions by Xinyi Hou, Yanjie Zhao, Shenao Wang, Haoyu Wang](https://arxiv.org/abs/2503.23278)
+- (2026-03) [Can Model Internals Detect MCP Tool Poisoning That Text Analysis Cannot? by Nicole Leung](https://doi.org/10.5281/zenodo.19990741)
 
 ## 📺 Videos
 
@@ -154,6 +155,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [IntentProbe](https://github.com/mcpware/IntentProbe) - Activation-probe scanner for MCP tool poisoning. Reads a model's internal activations instead of text patterns. 96.6% F1 on matched-vocabulary poisoning where text classifiers score 0%.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
