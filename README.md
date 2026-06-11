@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Proof of Commitment by piiiico](https://github.com/piiiico/proof-of-commitment) - Supply chain risk scoring MCP server for npm, PyPI, Cargo, and Go. Scores packages on behavioral signals (publisher concentration, release consistency, longevity) and flags sole-publisher packages with high download counts — the attack surface exploited in LiteLLM and axios. 11 tools via remote Streamable HTTP, no install required.
 
 ## 💻 Other Useful Resources
 
