@@ -1,4 +1,4 @@
-<div align="center" >🤝 Show your support - give a ⭐️ if you liked the content
+﻿<div align="center" >馃 Show your support - give a 猸愶笍 if you liked the content
 </div>
 
 ---
@@ -10,15 +10,15 @@ Everything you need to know about Model Context Protocol (MCP) security.
 ## Table of Contents
 
 - [Awesome MCP Security](#awesome-mcp-security-)
-  - 📔 [Security Considerations](#-security-considerations)
-  - 📃 [Papers](#-papers)
-  - 📺 [Videos](#-videos)
-  - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
-  - 🧑‍🚀 [Tools and code](#-tools-and-code)
-  - 💾 [MCP Security Servers](#-mcp-security-servers)
-  - 💻 [Other Useful Resources](#-other-useful-resources)
+  - 馃摂 [Security Considerations](#-security-considerations)
+  - 馃搩 [Papers](#-papers)
+  - 馃摵 [Videos](#-videos)
+  - 馃摃 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
+  - 馃鈥嶐煔€ [Tools and code](#-tools-and-code)
+  - 馃捑 [MCP Security Servers](#-mcp-security-servers)
+  - 馃捇 [Other Useful Resources](#-other-useful-resources)
  
-## 📔 Security Considerations
+## 馃摂 Security Considerations
 Official Security Considerations from the [Official MCP Specification Rev: 2025-03-26](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
 
 > [!NOTE] 
@@ -52,7 +52,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 > [!NOTE]  
 > *Human-in-the-Loop (HITL) means that user help monitor and guide automated tasks, like deciding whether to accept tool requests in Cursor.
  
-## 📃 Papers
+## 馃搩 Papers
 
 - (2025-08) [Systematic Analysis of MCP Security](https://arxiv.org/pdf/2508.12538)
 - (2025-05) [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
@@ -62,18 +62,18 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (2025-04) [MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits by Brandon Radosevich, John Halloran](https://arxiv.org/abs/2504.03767)
 - (2025-03) [Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions by Xinyi Hou, Yanjie Zhao, Shenao Wang, Haoyu Wang](https://arxiv.org/abs/2503.23278)
 
-## 📺 Videos
+## 馃摵 Videos
 
 - (13.06.2025) [MCP Auth: The Future of AI Agent Security - by Arcade.dev](https://youtu.be/zj29lslZxFg?si=j1YYkhycoQcE_rJ0)
 - (17.05.2025) [A2A - MCP SECURITY Threats: Protect your AI Agents by Discover AI](https://www.youtube.com/watch?v=h_6unQxHyb4)
-- (06.05.2025) [Making MCP Production Ready – Building MCP for Enterprise - by Arcade.dev](https://youtu.be/f1sLBGWnByc?si=wwa7Qm_vDM7VyElr)
+- (06.05.2025) [Making MCP Production Ready 鈥?Building MCP for Enterprise - by Arcade.dev](https://youtu.be/f1sLBGWnByc?si=wwa7Qm_vDM7VyElr)
 - (11.04.2025) [This MCP Server Trick Can Steal Your API Keys by Prompt Engineering](https://www.youtube.com/watch?v=86e49wcXst4)
 - (09.04.2025) [MCP Servers are Security Nightmares... by Better Stack](https://www.youtube.com/watch?v=CRKYNyMc4PM)
 - (03.04.2025) [MCP Security: Vetting Servers to Mitigate Tool Poisoning Attacks by JeredBlue](https://www.youtube.com/watch?v=LYUDUOevtqk)
 - (03.04.2025) [Model Context Protocol (MCP) Security Concerns by Cory Wolff](https://www.youtube.com/watch?v=3DEqIquWCQ4)
 - (02.06.2025) [Agentic Access: OAuth Isn't Enough | Zero Trust for AI Agents w/ Nick Taylor (Pomerium + MCP)](https://www.youtube.com/watch?v=KY1kCZkqUh0)
 
-## 📕 Articles, X threads and Blog Posts
+## 馃摃 Articles, X threads and Blog Posts
 
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
@@ -114,7 +114,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
 - (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
 - (07.04.2025) [An Introduction to MCP and Authorization by auth0](https://auth0.com/blog/an-introduction-to-mcp-and-authorization/)
-- (06.04.2025) [The “S” in MCP Stands for Security by Elena Cross](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b)
+- (06.04.2025) [The 鈥淪鈥?in MCP Stands for Security by Elena Cross](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b)
 - (04.04.2025) [MCP Servers are not safe! by Mehul Gupta](https://medium.com/data-science-in-your-pocket/mcp-servers-are-not-safe-bfbc2bb7aef8)
 - (03.04.2025) [Let's fix OAuth in MCP by Aaron Parecki](https://aaronparecki.com/2025/04/03/15/oauth-for-model-context-protocol)
 - (03.04.2025) [MCP Resource Poisoning Prompt Injection Attacks by Bernard IQ](https://www.bernardiq.com/blog/resource-poisoning/)
@@ -124,10 +124,10 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
 - (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
-- (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
+- (13.02.2025) [Chained commands (&&) bypass yolo mode 鈥渄enylist鈥?in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
-## 🧑‍🚀 Tools and code
+## 馃鈥嶐煔€ Tools and code
 
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
@@ -142,11 +142,13 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
 - [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
 - [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
-- [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
+- [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)  - [MCP Security Semgrep Rules - Production-grade Semgrep rules for auditing MCP servers, with real-world case studies of RCE vulnerabilities found in the wild: 3x RCE + 1x path traversal across Nexus and echo-mcp](https://github.com/shunfeng8421/universal-auditor)
+  - [MCP RCE Case Study: 11vated/Nexus - Critical RCE via shell=True in MCP tools (run_shell_command, search_code, read_file path traversal)](https://github.com/11vated/Nexus/pull/16)
+  - [MCP RCE Case Study: bala-2305/echo-mcp - RCE via subprocess.Popen with shell=True in launch_application tool](https://github.com/bala-2305/echo-mcp/pull/2)
 - [mcpscan.ai](https://mcpscan.ai/)
 - [Damn Vulnerable MCP Server by harishsg993010](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
 - [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
-- [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
+- [MCP-Shield 鈥?Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
 - [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
 - [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
 - [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
@@ -155,7 +157,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
-## 💾 MCP Security Servers
+## 馃捑 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
@@ -178,7 +180,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
 
-## 💻 Other Useful Resources
+## 馃捇 Other Useful Resources
 
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
@@ -187,17 +189,18 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
 
  
-# 😎 Contributing
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+# 馃槑 Contributing
+馃憤馃帀 First off, thanks for taking the time to contribute! 馃帀馃憤
 
 [Please read and follow our contributing guide](https://github.com/Puliczek/awesome-mcp-security/blob/main/CONTRIBUTING.md)
 
-Thanks! 🦄
+Thanks! 馃
 
 
-# 🤝 Show your support
+# 馃 Show your support
 
-<div>🤝 Show your support - give a ⭐️ if you liked the content</div>
+<div>馃 Show your support - give a 猸愶笍 if you liked the content</div>
 
-# ✔️ Disclaimer
+# 鉁旓笍 Disclaimer
 This project can only be used for educational purposes. Using this resource against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+
