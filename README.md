@@ -17,6 +17,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - 🧑‍🚀 [Tools and code](#-tools-and-code)
   - 💾 [MCP Security Servers](#-mcp-security-servers)
   - 💻 [Other Useful Resources](#-other-useful-resources)
+  - 🎓 [Training and Certification](#-training-and-certification)
  
 ## 📔 Security Considerations
 Official Security Considerations from the [Official MCP Specification Rev: 2025-03-26](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
@@ -126,6 +127,24 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
+- [MCP Security Vulnerabilities by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-vulnerabilities/)
+- [MCP Security Guide by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-guide/)
+- [MCP Tool Poisoning by Practical DevSecOps](https://www.practical-devsecops.com/mcp-tool-poisoning/)
+- [OWASP MCP Top 10 by Practical DevSecOps](https://www.practical-devsecops.com/owasp-mcp-top-10/)
+- [MCP Server Security Misconfigurations Audit Guide by Practical DevSecOps](https://www.practical-devsecops.com/mcp-server-security-misconfigurations-audit-guide/)
+- [Best MCP Security Courses and Certifications by Practical DevSecOps](https://www.practical-devsecops.com/best-mcp-security-courses-and-certifications/)
+- [Best MCP Security Books by Practical DevSecOps](https://www.practical-devsecops.com/best-mcp-security-books/)
+- [MCP OAuth 2.1 Implementation by Practical DevSecOps](https://www.practical-devsecops.com/mcp-oauth-2-1-implementation/)
+- [MCP Incident Response, Detection and Containment by Practical DevSecOps](https://www.practical-devsecops.com/mcp-incident-response-detection-containment/)
+- [MCP Server Hardening in Production by Practical DevSecOps](https://www.practical-devsecops.com/mcp-server-hardening-production/)
+- [MCP Security Risk Assessment Framework by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-risk-assessment-framework/)
+- [MCP Authentication and Authorization Implementation by Practical DevSecOps](https://www.practical-devsecops.com/mcp-authentication-authorization-implementation/)
+- [MCP Prompt Injection Attack Vectors by Practical DevSecOps](https://www.practical-devsecops.com/mcp-prompt-injection-attack-vectors/)
+- [MCP Security Best Practices by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-best-practices/)
+- [MCP Security Fundamentals by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-fundamentals/)
+- [MCP Security Checklist by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-checklist/)
+- [MCP Security Architecture Guide by Practical DevSecOps](https://www.practical-devsecops.com/mcp-security-architecture-guide/)
+- [Top MCP Security Tools by Practical DevSecOps](https://www.practical-devsecops.com/top-mcp-security-tools/)
 
 ## 🧑‍🚀 Tools and code
 
@@ -184,9 +203,14 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
 - [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
-- [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
+- [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/)
+- [MCP Security 101 Guide - Free E-book by Practical DevSecOps](https://www.practical-devsecops.com/wp-content/uploads/2026/06/MCP-Security-101-Guide-ebook.pdf) (PDF)
 
- 
+## 🎓 Training and Certification
+
+- [Certified MCP Security Expert - Training & Certification Course by Practical DevSecOps](https://www.practical-devsecops.com/certified-mcp-security-expert/)
+
+
 # 😎 Contributing
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
