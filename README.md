@@ -129,6 +129,11 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+### Active Mitigation Solutions
+
+- **[MCP Core Defense](https://github.com/amurlaniakea/mcp-core-defense)** - A 7-phase security proxy that intercepts and verifies all MCP tool calls (Policy Engine, DCI Checker, TDP Detector, mTLS, Sandbox) to block malicious execution before registration.
+- **[Agent Fixer Stage](https://github.com/amurlaniakea/agent-fixer-stage)** - A sub-millisecond multi-layer runtime output verifier (Normalization, Pattern Matching, Embeddings) that collapses multi-agent prompt injection success from 53.7% to 0.6%.
+
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
