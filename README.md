@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (20.06.2026) [SkillTotal by skilltotal.ai](https://github.com/pezhik/skilltotal) — Free, Apache-2.0, offline static security scanner for AI components (agent skills/plugins, MCP servers, npm & PyPI packages, git repos). Deterministic detection (regex + AST), no LLM, no account. Detects MCP tool poisoning/shadowing, prompt-injection surfaces, data-exfiltration paths, supply-chain risk; maps to OWASP Agentic Skills Top 10. Outputs JSON & SARIF 2.1.0; ships a GitHub Action, pre-commit hook and PyPI package.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
