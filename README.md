@@ -156,6 +156,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
+- (22.06.2026) [license-guardian by Baneado98](https://github.com/Baneado98/license-guardian) - MCP server that audits the license of every npm dependency before you ship: resolves each package's real license per version from the live npm registry and flags AGPL/SSPL network copyleft, BUSL/Elastic source-available and unlicensed packages incompatible with your distribution context
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
