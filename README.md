@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Markovian Provenance by MarkovianProtocol](https://github.com/MarkovianProtocol/markovian-protocol) - MCP server that commits tool results to a Bitcoin-anchored, ZK-verified record, so any client can independently verify a result is authentic and unaltered (output integrity and non-repudiation for MCP tool results). Live public server and verifier, no key required.
 
 ## 💻 Other Useful Resources
 
