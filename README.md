@@ -144,7 +144,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
 - [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
 - [mcpscan.ai](https://mcpscan.ai/)
-- [CheckMCP](https://checkmcp.dev/) - Free security & quality audit for any MCP server: OWASP MCP Top 10 scan (tool poisoning, hardcoded secrets, lethal trifecta) with a 0-100 MCP Score. Web audit + open-source CLI (`uvx checkmcp`).
+- [CheckMCP](https://checkmcp.dev/) - Free security & quality audit for any MCP server: OWASP MCP Top 10 scan (tool poisoning, hardcoded secrets, lethal trifecta) with a 0-100 MCP Score. Web audit + open-source CLI (`uvx audit-mcp`).
 - [Damn Vulnerable MCP Server by harishsg993010](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
 - [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
 - [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
