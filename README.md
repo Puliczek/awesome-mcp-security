@@ -129,6 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (04.07.2026) [Switchboard - Firewall and password manager for AI coding agents: scopes what Claude Code and Codex can reach, moves secrets to the OS keychain, and puts each agent on an expiring pass by wkoverfield](https://github.com/wkoverfield/switchboard)
+
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
