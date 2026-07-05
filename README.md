@@ -129,6 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [shrike - Autonomous security agent for your AI stack: discovers MCP servers & agent tools, finds vulnerabilities, correlates cross-server risk, and writes the fixes — on a local model by Cognis Digital](https://github.com/cognis-digital/shrike)
+- [skillvet - Static trust gate that vets a Claude Skill / MCP server / plugin before you install it, returning a TRUST/REVIEW/BLOCK verdict by Cognis Digital](https://github.com/cognis-digital/skillvet)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
