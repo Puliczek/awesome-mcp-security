@@ -152,6 +152,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 - [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
+- [Darkmoon Privacy Gateway](https://github.com/ASCIT31/Dark-Moon) - Open-source gateway for MCP hosts that keeps real sensitive values from ever reaching the model, substituting deterministic placeholders and reinjecting the originals locally, with anti-exfiltration controls
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
