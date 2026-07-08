@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [PolicyLayer Registry by PolicyLayer](https://policylayer.com/registry/mcp) - MCP server to check any MCP server's identity, risk grade and per-tool risk classification from inside your agent, before installing it. Free single-server lookups over 32,500+ vetted servers.
 
 ## 💻 Other Useful Resources
 
