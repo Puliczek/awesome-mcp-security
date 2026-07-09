@@ -154,6 +154,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [fak - Governance gateway that gives every agent tool call an ALLOW/DENY/TRANSFORM verdict against a reviewable JSON allow-list before it runs by anthony-chaudhary](https://github.com/anthony-chaudhary/fak) - In-process or over MCP; fixed reason codes (POLICY_BLOCK, SECRET_EXFIL), no model in the loop, and untrusted tool-result bytes are quarantined so an agent can't be steered into widening its own authority.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
