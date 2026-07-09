@@ -129,6 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [mcp-seatbelt](https://github.com/KryptosAI/mcp-seatbelt) - Runtime guardrails for AI agent MCP tools — detects MCP configs across 8 clients, wraps risky servers with a policy proxy, blocks dangerous tool calls at runtime
+- [mcp-observatory](https://github.com/KryptosAI/mcp-observatory) - Test, secure, and monitor MCP servers before agents depend on them. Attack simulation, schema drift detection, health scoring, SARIF integration
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
