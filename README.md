@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (10.07.2026) [Clawmont MCP Security by Clawmont](https://clawmont.com/mcp-security/) - BUSL-1.1 source-available, local-first runtime security for OpenClaw that checks MCP-connected tool calls and returned content alongside agent input and output.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
