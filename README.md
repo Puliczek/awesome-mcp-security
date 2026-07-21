@@ -133,6 +133,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
+- [mcpward - Contract testing for MCP servers in CI: pins tool surfaces to a lockfile, detects drift and silently rewritten tool descriptions, flags tool-poisoning patterns, exports SARIF by TsvetanG2](https://github.com/TsvetanG2/mcpward)
 - [MCP Guardian - Manage your LLM's access to MCP servers by eqtylab](https://github.com/eqtylab/mcp-guardian)
 - [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 - [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
