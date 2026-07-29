@@ -145,6 +145,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
 - [mcpscan.ai](https://mcpscan.ai/)
 - [Damn Vulnerable MCP Server by harishsg993010](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
+- [mcprobe by tamish560 - Security scanner for MCP servers: prompt injection detection, tool shadowing, baseline diffing, SARIF output](https://github.com/tamish560/mcprobe)
+- [vault by valtors - Sandbox runtime for AI agents: filesystem overlay, env sanitizer, network policy, MCP injection scanner](https://github.com/valtors/vault)
 - [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
 - [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
 - [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
@@ -165,6 +167,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [IDA-Pro-MCP by mrexodia](https://github.com/mrexodia/ida-pro-mcp) - MCP server for reverse engineering in IDA Pro, a tool for analyzing software and binary files.
 - [binaryninja-mcp by MCPPhalanx](https://github.com/MCPPhalanx/binaryninja-mcp) - MCP server for Binary Ninja, a binary analysis tool.
 - [Burp Suite MCP by PortSwigger](https://github.com/PortSwigger/mcp-server) - MCP integration for web security testing in Burp Suite, a security testing tool for web applications.
+- [smith by valtors - Package manager for MCP servers: install, compose, secure, and manage MCP servers with profiles and security audits](https://github.com/valtors/smith)
 - [BloodHound-MCP-AI by MorDavid](https://github.com/MorDavid/BloodHound-MCP-AI) - MCP server integration for BloodHound, a tool for analyzing Active Directory domains.
 - [RoadRecon MCP by atomicchonk](https://github.com/atomicchonk/roadrecon_mcp_server) - MCP server for Azure AD data analysis with ROADRecon, a tool for mapping Azure Active Directory environments.
 - [Jadx MCP Plugin by mobilehackinglab](https://github.com/mobilehackinglab/jadx-mcp-plugin) - Jadx plugin for MCP server access via HTTP, used for decompiling Android apps.
