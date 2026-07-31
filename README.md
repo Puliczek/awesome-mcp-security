@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [Hades Blackwatch](https://github.com/DebasishTripathy13/Hades-Blackwatch) - AI application security review skill covering LLM apps, agentic systems, and MCP servers/tools; mapped to OWASP LLM/Agentic Top 10, AIVSS, and MITRE ATLAS (by DebasishTripathy13)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
