@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Lazaretto by jamesdfinance-dev](https://github.com/jamesdfinance-dev/lazaretto-mcp) - Deterministic pre-install verifier MCP server for skills, tools, and npm/GitHub packages: matches lockfile dependencies (package-lock.json/yarn.lock/pnpm-lock.yaml) against OSV/OpenSSF malicious-package advisories, checks file hashes against known-bad indicators, and runs deterministic behavioral scans for credential theft, exfiltration, obfuscation, and prompt injection with file-and-line evidence.
 
 ## 💻 Other Useful Resources
 
