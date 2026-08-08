@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [Trovark](https://github.com/lets-order-some-fries/trovark) - Trust scores for MCP servers from static, public signals only; it never executes the scanned server's code. Grades 0-100 with an evidence link on every finding, withholds a grade rather than guessing when the tool surface cannot be determined, and ships a hidden-Unicode payload detector whose thresholds were pre-registered before the corpus was scanned. Published index of 400 scanned servers and a versioned rubric. `npx trovark <server>`
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
