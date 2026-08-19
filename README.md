@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [MandateGuard by ezequiellich44-cmd](https://github.com/ezequiellich44-cmd/MandateGuard) - Deterministic payment policy for AI agents: budgets, allowlists, rate limits, signed Ed25519 mandates, tamper-evident audit ledger. MCP server on official MCP Registry. MIT core.
 
 ## 💻 Other Useful Resources
 
