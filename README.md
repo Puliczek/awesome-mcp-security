@@ -130,6 +130,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 ## 🧑‍🚀 Tools and code
 
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
+- [mcpcanary by FrankFu916](https://github.com/FrankFu916/mcpcanary) - CI-first linter/tester for MCP setups: catches hardcoded API keys and `npx`-without-`-y` hangs in `.mcp.json`/client configs, audits live tool descriptions for injection phrasing, duplicate descriptions, and missing descriptions; YAML drill tests with GitHub Actions annotations.
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
 - [AI-Infra-Guard by Tencent Zhuque Lab](https://github.com/Tencent/AI-Infra-Guard) - MCP Server Security Analysis Tool - a comprehensive, intelligent, easy-to-use, and lightweight AI Infrastructure Vulnerability Assessment.
