@@ -75,6 +75,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (28.08.2026) [We Probed Every Remote Server in the Official MCP Registry. Here's What 140,284 Tool Descriptions Actually Say by Fetchgate](https://fetchgate.dev/blog/mcp-registry-audit-2026)
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
 - (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
@@ -129,6 +130,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [MCP Tool Description Scanner by Fetchgate - Free web tool: paste a remote MCP server URL, it fetches tools/list (never tools/call) and flags tool-poisoning patterns in tool names, descriptions, parameter descriptions and the server's initialize `instructions`](https://fetchgate.dev/tools/mcp-scanner)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
