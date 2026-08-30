@@ -148,6 +148,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
 - [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
 - [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
+- [mcp-scan (npm) by Abanoub-Rodolf](https://github.com/Abanoub-Rodolf/mcp-scan)
 - [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
 - [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 - [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
