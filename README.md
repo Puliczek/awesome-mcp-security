@@ -140,6 +140,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
 - [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
+- [Norviq - Kubernetes policy enforcement point for MCP tool calls by norviq-dev](https://github.com/norviq-dev/norviq) - Content-hash pins tool definitions at discovery and evaluates every `tools/call` against OPA/Rego before the upstream server sees it. Ships in audit mode.
 - [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
 - [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
 - [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
