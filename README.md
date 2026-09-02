@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [Helio](https://github.com/gethelio/helio) - Open-source governance proxy that sits between agents and MCP servers. Enforces per-tool policies, routes sensitive calls to human approval, caps cumulative cross-tool spend, checks evidence, and records an audit trail of every tool call, with no changes to agent code or MCP servers.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
