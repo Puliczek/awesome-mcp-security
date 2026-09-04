@@ -75,6 +75,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (17.07.2026) [Asana's MCP server let one company's AI agent see another company's projects by RAGBleed](https://ragbleed.com/case/016-asana-mcp-cross-tenant)
+- (06.07.2026) [Kong Konnect's MCP server could be tricked into acting as a confused deputy by RAGBleed](https://ragbleed.com/case/014-kong-konnect-mcp-confused-deputy)
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
 - (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
