@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [mcp-scan by Abanoub-Rodolf](https://github.com/Abanoub-Rodolf/mcp-scan) (npx scanner for MCP server configs across 17 AI clients, SARIF output, no account)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
@@ -147,7 +148,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Damn Vulnerable MCP Server by harishsg993010](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
 - [ToolHive - making MCP servers easy and secure by StacklokLabs](https://github.com/StacklokLabs/toolhive)
 - [MCP-Shield – Detect security issues in MCP servers by riseandignite](https://github.com/riseandignite/mcp-shield)
-- [mcp-scan by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-scan)
+- [Snyk Agent Scan, formerly mcp-scan by invariantlabs-ai](https://github.com/snyk/agent-scan)
 - [MCP Ethical Hacking by cmpxchg16](https://github.com/cmpxchg16/mcp-ethical-hacking)
 - [mcp-injection-experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 - [MCP Defender - Blocks malicious MCP traffic](https://github.com/MCP-Defender/MCP-Defender)
