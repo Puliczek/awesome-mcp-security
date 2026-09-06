@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Aggrete - MCP policy proxy that enforces a code-of-conduct across connectors, with deterministic deny-before-fetch rules, per-user cross-session accumulation, a prompt-injection egress shield, tool-integrity (rug-pull and poisoning) checks, secret redaction, rate limiting and a tamper-evident audit](https://github.com/Aggrete/aggrete)
 
 ## 💻 Other Useful Resources
 
