@@ -74,6 +74,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (02.06.2025) [Agentic Access: OAuth Isn't Enough | Zero Trust for AI Agents w/ Nick Taylor (Pomerium + MCP)](https://www.youtube.com/watch?v=KY1kCZkqUh0)
 
 ## 📕 Articles, X threads and Blog Posts
+- [Verify a Strix decision without trusting Strix](https://www.strixgov.com/blog/verify-strix-decision-without-trusting-strix) — Public JWKS / Ed25519 receipt verification (`npx @strixgov/verifier@latest 5686`).
 
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
@@ -124,10 +125,13 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
 - (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
+- 
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
+- [Strixgov](https://www.strixgov.com) / [`@strixgov/*`](https://github.com/Strixgov/strix) — Execution-control / runtime governance kernel for agent & MCP tool calls (Allow/Deny/Intercept before side effects). Offline verify: `npx @strixgov/verifier@latest 5686`. MCP: [mcp-action-governance](https://www.strixgov.com/mcp-action-governance). *(Not related to usestrix/strix.)*
+
 
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
