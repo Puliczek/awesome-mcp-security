@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (13.09.2026) [mcplint by dtduc-git](https://github.com/dtduc-git/mcplint) - Static, CI-native security scanner for MCP configs and agent skill files: OWASP MCP Top 10 rules, lockfile for rug-pull detection, CycloneDX AIBOM and SARIF output; never executes MCP servers.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
