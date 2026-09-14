@@ -129,6 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [vishalhabib99/mcp-doctor - Static analyzer for MCP server source code: flags dangerous eval/exec patterns, SSRF, and secret-handling issues alongside spec-conformance gaps, with an A-F grade](https://github.com/vishalhabib99/mcp-doctor)
+- [vishalhabib99/mcp-fuzz - Runtime fuzzer for MCP servers: calls every tool with schema-derived malicious/malformed inputs to catch crashes, concurrency bugs, and stale-state issues after a resource is supposedly deleted](https://github.com/vishalhabib99/mcp-fuzz)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
