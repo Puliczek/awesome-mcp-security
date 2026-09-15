@@ -129,7 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
-- (10.09.2026) [Gram by Speakeasy](https://github.com/speakeasy-api/gram) - Open-source AI control plane for centrally managing MCPs with access controls, policy enforcement, threat detection, and audit observability.
+- (10.09.2026) [Speakeasy AI Control Plane](https://www.speakeasy.com/product/ai-control-plane) - Enterprise AI control plane that connects, secures, controls, and observes agents, MCPs, and Skills.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
