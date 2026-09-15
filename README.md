@@ -185,6 +185,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
 - [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
 - [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
  
 # 😎 Contributing
