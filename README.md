@@ -155,6 +155,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
+- [CTRLRun](https://github.com/CTRLRun/ctrlrun) - Execution safety layer for AI agent actions. The gateway proxies any MCP server so every tool call is checked against a YAML policy before it runs: allow, hold for a human, or deny. Approvals are single-use and bound to the hash of the exact action, one logical effect runs at most once across processes and hosts, and an unknown outcome is recorded AMBIGUOUS rather than FAILED so a blind retry is refused. `ctrlrun mcp-operator` lets a human answer a held action from their own assistant. Hash-chained JSON receipts, Apache-2.0.
+
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
