@@ -180,6 +180,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 💻 Other Useful Resources
 
+- [Orca AI Incident Archive by Continuum-AI-Corp](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents, each with a primary source; includes 31 MCP-tagged records such as the MCPwn nginx-ui MCP endpoint exploited in the wild
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
