@@ -137,6 +137,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 - [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
 - [MCP Watch - Vulnerability scanner for MCP servers](https://github.com/kapilduraphe/mcp-watch)
+- (17.09.2026) [SUNGLASSES by sunglasses-dev - open-source input firewall for AI agents: scans text, files, images (OCR), PDFs and QR codes for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories, fully local (no network calls); ships as a CLI, Python API, MCP server (scan_text, scan_file) and a Claude Code hook](https://github.com/sunglasses-dev/sunglasses)
 - [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
 - [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
