@@ -54,7 +54,11 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
  
 ## 📃 Papers
 
+- (2026-05) [A First Measurement Study on Authentication Security in Real-World Remote MCP Servers by Huijun Zhou, Xiaohan Zhang, Haozhe Zhang, Haoyang Zhang, Mi Zhang, Min Yang](https://arxiv.org/abs/2605.22333)
+- (2025-12) [Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2512.08290)
+- (2025-10) [A First Look at the Security Issues in the Model Context Protocol Ecosystem (DSN 2026) by Xiaofan Li, Xing Gao](https://arxiv.org/abs/2510.16558)
 - (2025-08) [Systematic Analysis of MCP Security](https://arxiv.org/pdf/2508.12538)
+- (2025-06) [Model Context Protocol (MCP) at First Glance: Studying the Security and Maintainability of MCP Servers](https://arxiv.org/abs/2506.13538)
 - (2025-05) [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
 - (2025-05) [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623)
 - (2025-04) [Simplified and Secure MCP Gateways for Enterprise AI Integration by Ivo Brett](https://arxiv.org/abs/2504.19997)
