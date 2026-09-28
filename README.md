@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [20131 Agent Security Runtime - Local-first, zero-dependency Go runtime that observes AI agent actions (files, network, shell, MCP tool calls), evaluates them against explicit policies, and keeps a replayable audit trail; observe-only v0.5.0 preview for Windows/macOS/Linux by 411160007](https://github.com/411160007/20131-agentruntime)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
