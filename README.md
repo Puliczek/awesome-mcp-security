@@ -137,6 +137,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Tool Poisoning Experiments by invariantlabs-ai](https://github.com/invariantlabs-ai/mcp-injection-experiments)
 - [Google Security Operations and Threat Intelligence MCP Server - Access Google's security products and services](https://github.com/google/mcp-security)
 - [MCP Watch - Vulnerability scanner for MCP servers](https://github.com/kapilduraphe/mcp-watch)
+- [mcp-safeguard - Static-analysis security scanner for MCP servers by SyedAnas01](https://github.com/SyedAnas01/mcp-safeguard) - Checks for prompt injection, credential exposure, SSRF, and tool-poisoning risks across 148 rules. Used to find CVE-2026-14540 (Google MCP Toolbox) and SSRF in Anthropic's mcp-server-fetch and Microsoft's playwright-mcp.
 - [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
 - [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
