@@ -129,6 +129,10 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [claude-mcp-allow - Generate least-privilege Claude Code permission rules for MCP tools from their annotations by basitalisandhu](https://github.com/basitalisandhu/claude-mcp-allow)
+- [mcp-auth-doctor - Diagnose OAuth discovery problems on remote MCP servers by basitalisandhu](https://github.com/basitalisandhu/mcp-auth-doctor)
+- [mcp-egress - Record every host an MCP server contacts, per tool, and fail CI on new ones by basitalisandhu](https://github.com/basitalisandhu/mcp-egress)
+- [mcp-tools-lint - Lint MCP tool schemas and annotations before clients reject them by basitalisandhu](https://github.com/basitalisandhu/mcp-tools-lint)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
