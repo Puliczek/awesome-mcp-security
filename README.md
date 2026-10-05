@@ -64,6 +64,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📺 Videos
 
+- (04.10.2026) [The AI Tool You Approved Is Not the One Running Now by Gautam Talks](https://www.youtube.com/watch?v=tGtbDNr9qvE)
 - (13.06.2025) [MCP Auth: The Future of AI Agent Security - by Arcade.dev](https://youtu.be/zj29lslZxFg?si=j1YYkhycoQcE_rJ0)
 - (17.05.2025) [A2A - MCP SECURITY Threats: Protect your AI Agents by Discover AI](https://www.youtube.com/watch?v=h_6unQxHyb4)
 - (06.05.2025) [Making MCP Production Ready – Building MCP for Enterprise - by Arcade.dev](https://youtu.be/f1sLBGWnByc?si=wwa7Qm_vDM7VyElr)
@@ -129,6 +130,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [mcp-pin - Pins MCP tool definitions when you approve a server and blocks the session if they change, plus a public signed log of definition changes by GautamTalksDev](https://github.com/GautamTalksDev/mcp-pin)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
