@@ -55,6 +55,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 ## 📃 Papers
 
 - (2025-08) [Systematic Analysis of MCP Security](https://arxiv.org/pdf/2508.12538)
+- (2026-10) [FinProof: Adversarial Benchmark for AI Guardrails in BFSI — MCP Tool Poisoning (D-09) evaluation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6728799)
 - (2025-05) [Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol Ecosystem](https://arxiv.org/abs/2506.02040)
 - (2025-05) [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623)
 - (2025-04) [Simplified and Secure MCP Gateways for Enterprise AI Integration by Ivo Brett](https://arxiv.org/abs/2504.19997)
@@ -154,6 +155,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+
+- [Agent Siege by Zytra Techsolutions](https://finproof.ai/agent-siege) - Interactive red-team game for banking AI: craft MCP tool poisoning payloads and observe whether the agent executes unauthorized fund transfers in a sandboxed environment.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
