@@ -126,6 +126,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
 - (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
+- (19.09.2026) [State of MCP security, September 2026 by mcp.market](https://mcp.market/research/state-of-mcp-security-september-2026) - Findings from scanning every server in the official MCP registry: open write endpoints, risky code patterns, tool poisoning checks. Live numbers at [mcp.market/mcp-security](https://mcp.market/mcp-security).
 
 ## 🧑‍🚀 Tools and code
 
@@ -154,6 +155,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [skill-scan](https://github.com/thebigasif/skill-scan) - Scan a Claude or agent skill for hidden Unicode, remote scripts, secret reads and prompt-injection lines before you install it. Same rules grade 5,000+ public skills at [mcp.market/skills](https://mcp.market/skills).
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
