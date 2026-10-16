@@ -16,6 +16,7 @@ Everything you need to know about Model Context Protocol (MCP) security.
   - 📕 [Articles, X threads and Blog Posts](#-articles-x-threads-and-blog-posts)
   - 🧑‍🚀 [Tools and code](#-tools-and-code)
   - 💾 [MCP Security Servers](#-mcp-security-servers)
+  - 🎓 [MCP Security Training and Certifications](#-mcp-security-training-and-certifications)
   - 💻 [Other Useful Resources](#-other-useful-resources)
  
 ## 📔 Security Considerations
@@ -114,7 +115,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (07.04.2025) [Running MCP Tools Securely by mcp.run](https://docs.mcp.run/blog/2025/04/07/mcp-run-security/)
 - (07.04.2025) [WhatsApp MCP Exploited: Exfiltrating your message history via MCP by invariantlabs.ai](https://invariantlabs.ai/blog/whatsapp-mcp-exploited)
 - (07.04.2025) [An Introduction to MCP and Authorization by auth0](https://auth0.com/blog/an-introduction-to-mcp-and-authorization/)
-- (06.04.2025) [The “S” in MCP Stands for Security by Elena Cross](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b)
+- (06.04.2025) [The "S" in MCP Stands for Security by Elena Cross](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b)
 - (04.04.2025) [MCP Servers are not safe! by Mehul Gupta](https://medium.com/data-science-in-your-pocket/mcp-servers-are-not-safe-bfbc2bb7aef8)
 - (03.04.2025) [Let's fix OAuth in MCP by Aaron Parecki](https://aaronparecki.com/2025/04/03/15/oauth-for-model-context-protocol)
 - (03.04.2025) [MCP Resource Poisoning Prompt Injection Attacks by Bernard IQ](https://www.bernardiq.com/blog/resource-poisoning/)
@@ -124,7 +125,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (29.03.2025) [MCP Servers: The New Security Nightmare by equixly.com](https://equixly.com/blog/2025/03/29/mcp-server-new-security-nightmare)
 - (23.03.2025) [AI Model Context Protocol (MCP) and Security by Cisco](https://community.cisco.com/t5/security-blogs/ai-model-context-protocol-mcp-and-security/ba-p/5274394)
 - (18.03.2025) [New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents by Ziv Karliner](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents)
-- (13.02.2025) [Chained commands (&&) bypass yolo mode “denylist” in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
+- (13.02.2025) [Chained commands (&&) bypass yolo mode "denylist" in Cursor by lukemmtt](https://forum.cursor.com/t/chained-commands-bypass-yolo-mode-denylist/50775)
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
@@ -140,8 +141,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP Security Checklist: A Security Guide for the AI Tool Ecosystem by SlowMist](https://github.com/slowmist/MCP-Security-Checklist)
 - [workers-mcp - Connect Cloudflare Workers with your MCP clients by Cloudflare](https://github.com/cloudflare/workers-mcp)
 - [MCP Gateway - Acts as intermediary between LLMs and other MCP servers by lasso-security](https://github.com/lasso-security/mcp-gateway)
-- [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)]
-- [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oide Brett](https://github.com/oidebrett/mcpauth)
+- [AWS Security MCP - Access AWS security tools by groovyBugify](https://github.com/groovyBugify/aws-security-mcp)
+- [MCPAuth: Gateway Authentication for Secure Enterprise MCP Integrations by Oidebrett](https://github.com/oidebrett/mcpauth)
 - [mcpserverscanner.com by orgor](https://mcpserverscanner.com/)
 - [mcpscan.ai](https://mcpscan.ai/)
 - [Damn Vulnerable MCP Server by harishsg993010](https://github.com/harishsg993010/damn-vulnerable-MCP-server)
@@ -177,6 +178,80 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+
+## 🎓 MCP Security Training and Certifications
+
+Hands-on training and professional certifications focused on securing Model Context Protocol implementations. As MCP adoption accelerates across AI agents and enterprise systems, the need for security-specialized training has become critical. Between January and February 2026 alone, researchers filed 30+ CVEs against MCP servers, clients, and tooling.
+
+### Certifications
+
+Certifications validate hands-on capability in building, testing, and defending MCP systems against attack. These courses distinguish between MCP development training and MCP security training—a critical difference, as most existing MCP courses focus on protocol implementation rather than threat modeling or security controls.
+
+#### 1. [Certified MCP Security Expert (CMCPSE) by Practical DevSecOps](https://www.practical-devsecops.com/certified-mcp-security-expert/)
+
+First hands-on certification built end-to-end for MCP attack and defense.
+
+- **Covers:** MCP threat modeling, OWASP MCP Top 10 framework, tool poisoning detection, MCP supply chain security, authentication and transport security, server validation, client security architecture, attack surface mapping for MCP deployments
+- **Format:** Self-paced with 60 days of lab access and 6-hour practical exam
+- **Cost:** $599
+- **Best for:** Security professionals responsible for MCP deployments, red teamers testing MCP systems, architects designing MCP security controls
+- **Key distinction:** Only 2026 certification focused on MCP attack and defense rather than MCP development; maps to OWASP MCP Top 10
+
+#### 2. [Model Context Protocol Associate (MCPA) by Linux Foundation](https://www.linuxfoundation.org/training/mcp-associate/)
+
+Vendor-neutral foundational certification covering MCP concepts and architecture.
+
+- **Covers:** MCP clients, servers, tools, resources, interaction lifecycles, security & governance fundamentals, protocol primitives, MCP ecosystem adoption
+- **Format:** Exam-based certification
+- **Best for:** Practitioners building foundational MCP understanding before specializing in security; those entering AI governance and security roles
+- **Key distinction:** Vendor-neutral; covers 24% security & governance alongside architecture and implementation
+
+#### 3. [MCP Security Bootcamp by StationX](https://www.stationx.net/mcp-security-bootcamp/)
+
+On-demand video bootcamp covering MCP security processes and custom workflows.
+
+- **Covers:** MCP basics for security professionals, building MCP servers with security focus, implementing authentication and transport security, integrating MCP with security workflows, threat detection in MCP deployments
+- **Format:** 6-hour on-demand video bootcamp with industry-expert interviews
+- **Best for:** AI developers, security researchers, and automation specialists moving MCP to production; teams building custom MCP security integrations
+- **Key distinction:** Focused on practical security implementation and custom workflow design rather than certification exam prep
+
+#### 4. [Model Context Protocol Foundation (RXM404) by Linux Foundation](https://www.linuxfoundation.org/training/model-context-protocol-foundation/)
+
+Instructor-led course on building and securing MCP clients and servers.
+
+- **Covers:** Building MCP clients and servers, security and authorization practices for production use, testing and hardening MCP integrations before deployment, transport security, secure tool exposure
+- **Format:** 2-day instructor-led
+- **Best for:** DevSecOps teams integrating MCP into CI/CD pipelines; developers building production MCP infrastructure with security hardening
+- **Key distinction:** Bridges development and security; emphasizes hardening before deployment
+
+#### 5. [Anthropic MCP Courses on Skilljar](https://skilljar.anthropic.com/)
+
+Official MCP educational resources from the protocol maintainer.
+
+- **Covers:** MCP introduction and advanced topics, MCP architecture, server development, protocol best practices, security and privacy considerations
+- **Format:** On-demand video courses
+- **Best for:** Building foundational understanding of MCP from the protocol creator; background reading before pursuing specialized security certifications
+- **Key distinction:** Official Anthropic content; useful prerequisite for security-focused training
+
+### Learning Path Guidance
+
+Start with foundational knowledge (Anthropic MCP Courses or MCPA) if you're new to MCP and need to understand protocol architecture before focusing on security.
+
+Move to security-specialized training (CMCPSE, StationX Bootcamp, or RXM404) if your role involves securing MCP deployments or testing MCP systems for vulnerabilities.
+
+Combine with hands-on labs (CMCPSE or RXM404) to build practical skills in threat modeling, server hardening, and attack detection.
+
+Specialize by role:
+
+- **Security architects and practitioners** → CMCPSE (vendor-neutral, comprehensive threat coverage)
+- **DevSecOps and infrastructure teams** → RXM404 (development + security hardening)
+- **Red teamers and penetration testers** → StationX Bootcamp or CMCPSE (attack methodology and tool poisoning)
+
+### Why MCP Security Training Matters in 2026-2027
+
+MCP is now the standard for connecting AI agents to production data, internal tools, and enterprise systems. It's integrated into Claude Desktop, Cursor, ChatGPT, and every major agentic AI framework shipping this year. The CVE volume (30+ in Q1 2026 alone) and NSA security guidance (May 2026) underscore that MCP deployments introduce attack surfaces many security teams have not yet learned to defend.
+
+MCP security training differs from general MCP development courses in one critical way: it teaches what goes wrong and how to prevent it, not just how to build it. Most existing MCP courses (Anthropic Academy, Hugging Face, DeepLearning.AI) are builder-focused. Certifications and bootcamps listed here focus on the threat model and defenses.
 
 ## 💻 Other Useful Resources
 
