@@ -75,6 +75,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (20.10.2026) [The MCP exposure census: ~half of public MCP servers expose their full tool list with no authentication (and 0% confirmed poisoning) by Grey Ridge Signals](https://rezearcher.github.io/greyridge-x402-tools/mcp-registry-census-2026-10-20) - Measured scan of 364 remote servers in the official MCP registry: 174 (48%) answered `tools/list` unauthenticated, exposing their complete tool surface; 0 of 174 showed confirmed tool poisoning. Reproducible method, raw rows published.
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
 - (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
