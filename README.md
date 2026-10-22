@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (22.10.2026) [Grey Ridge MCP Security Scanner by Grey Ridge Signals](https://x402-data-api.sigrunner.workers.dev/scan/directory) - Static scan of any MCP server's tools/list for prompt-injection, tool-poisoning and exfiltration patterns (OWASP LLM01/LLM08). Free web preview, a CLI (`npx`), and a CI-gate GitHub Action that fails builds on critical findings.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
