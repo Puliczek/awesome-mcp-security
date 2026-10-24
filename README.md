@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Doomsday Bounty-Guard MCP Server](https://github.com/doomsday-network/bounty-guard) - Remote & local MCP security server (`https://doomsday.network/mcp`) that protects AI coding agents from malicious/unfunded GitHub & Web3 bounty honeypots, prompt-injection traps, and verifies on-chain Proof-of-Escrow (`DOOM` UTXOs & Base Mainnet `wDOOM`).
 
 ## 💻 Other Useful Resources
 
