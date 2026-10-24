@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [hexvero by maximilianfeix](https://github.com/maximilianfeix/hexvero) - MCP server for static security review of Electron apps and binaries: compares two builds and reports changed IPC channels, preload bridge members, window settings and network hosts with file and line, without executing the target.
 
 ## 💻 Other Useful Resources
 
