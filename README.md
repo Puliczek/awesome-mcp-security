@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [AgentWarden](https://agentwarden.praesi-technologies.com/) - Desktop app for Mac and Windows that monitors AI coding agents on your own machine, flags indirect prompt injection from MCP tool results, and scans installed agent skills, plugins and MCP servers for malicious instructions before they run. Closed source, free tier.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
