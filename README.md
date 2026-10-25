@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [Scalekit MCP Auth](https://docs.scalekit.com/authenticate/mcp/intro-to-mcp-auth/) - OAuth 2.1 authorization for remote MCP servers from Scalekit, the agent integration platform (500+ connectors, 20,000+ tools). Each tool call runs with the end user's scoped credentials from an encrypted token vault, so tokens never reach the LLM context; virtual MCP servers expose only the tools a role needs; every tool call is audit-logged. SOC 2 Type II, HIPAA BAA, and a self-hosted option.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
