@@ -156,6 +156,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
+- [Tollgate](https://github.com/kkU1444/tollgate) - Zero-dependency governance gateway for AI agents that move money: a 16-ring deterministic enforcement chain (canary-token injection fence, budget reserve, Ed25519-signed human approvals, hash-chained audit); runs as an MCP server or fronts any third-party stdio MCP server as a governed upstream proxy (32/32 injection corpus blocked, 0/8 benign false positives)
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
