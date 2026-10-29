@@ -154,6 +154,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [Gadriel Code Assurance by Gadriel AI](https://gadriel.ai/code-security) - Local AI security harness and CLI (`@gadriel_ai/cli`) that scans MCP configurations, agentic skills, and AI-generated code for OWASP LLM Top 10, prompt injection, tool poisoning, secrets, SAST, SCA/SBOM, and container vulnerabilities.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
@@ -177,6 +178,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Gadriel-ai/gadriel-copilot-plugin](https://github.com/Gadriel-ai/gadriel-copilot-plugin) - Local MCP security server (`io.github.Gadriel-ai/gadriel`) running 6 deterministic scanners (SAST, secrets, SCA/SBOM, container, IaC/config, and OWASP LLM Top 10 / Agentic Skills checks) locally for Claude Code, Cursor, GitHub Copilot, and Codex.
 
 ## 💻 Other Useful Resources
 
