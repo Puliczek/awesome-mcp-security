@@ -129,6 +129,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (02.11.2026) [MCP Connector Policy Examples by Kortix](https://github.com/Kortix-seo/mcp-connector-policy-examples) - A runnable `kortix.yaml` with three MCP connectors, the four-level policy order, an argument condition on one write, and a checker that fails on a malformed rule.
+
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
