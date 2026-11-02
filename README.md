@@ -128,6 +128,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (18.06.2025) [The Model Context Protocol Security Reality Check](https://thenewstack.io/the-model-context-protocol-security-reality-check/)
 
 ## 🧑‍🚀 Tools and code
+- [agent-bom - AI supply-chain BOM and MCP security scanner by koda-ai-studio](https://github.com/koda-ai-studio/agent-bom) - Inventories agents, MCP servers and AI packages, audits tool descriptions for poisoning and risky launchers, and maps each vulnerable package to the agents that can reach it.
 
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
