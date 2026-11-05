@@ -154,7 +154,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
-- [mcplint - MCP client config policy gate by ravenkernel](https://github.com/ravenkernel/mcplint) - Static linter for the config side: any field it cannot model becomes a finding, so a merge fails instead of silently passing. Policy baseline, drift detection, GitHub Action, zero dependencies.
+- [mcp-policy-lint - MCP client config policy gate by ravenkernel](https://github.com/ravenkernel/mcp-policy-lint) - Static linter for the config side: any field it cannot model becomes a finding, so a merge fails instead of silently passing. Policy baseline, drift detection, GitHub Action, zero dependencies.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
