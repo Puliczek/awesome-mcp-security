@@ -156,6 +156,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
+- [CapabilityMap Nexus by Hadinkof](https://github.com/Hadinkof/capabilitymap-nexus-mcp) - MCP capability router and 5-vector prompt-injection security firewall (`inspect_mcp_output_firewall`) that sanitizes untrusted MCP tool outputs against instruction overrides, Unicode Tag (`U+E0000..U+E007F`) smuggling, secret exfiltration, and homograph spoofing
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
