@@ -75,6 +75,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (05.11.2026) [A Field Guide to MCP Agent Attacks (With a Lab You Can Run) by Nitika Kumari](https://www.linkedin.com/pulse/field-guide-mcp-agent-attacks-lab-you-can-run-nitika-kumari-gc7bc/)
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
 - (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
@@ -154,6 +155,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [AgentShield - static security scanner for MCP configs and server source code: flags secret exposure, excessive agency, insecure transport, tool-poisoning indicators and supply-chain risk, with a risk score + HTML report and honest confirmed-vs-indicator labeling (100% offline) by Nitika Kumari](https://github.com/nitikasec/agentshield)
+- [Agent Heist - hands-on lab to attack and defend AI agents / MCP servers (indirect prompt injection, broken authz, data exfiltration), each level paired with a tested, hardened fix and OWASP-LLM mapping by Nitika Kumari](https://github.com/nitikasec/agent-heist)
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
