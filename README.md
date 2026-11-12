@@ -156,6 +156,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
+- (12.11.2026) [Excession Labs CVE intelligence by Excession Labs](https://excessionlabs.ai/cve-intelligence/) - Six public read-only tools for CVE search, source software/version evidence, available CISA KEV and dated FIRST EPSS, source health and hosted history. Streamable HTTP: `https://excessionlabs.ai/mcp/cve`; free, no account or API key.
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
