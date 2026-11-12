@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [AI Tool Detection Scripts - Read-only PowerShell/Bash scripts to find MCP server configs (Claude, Cursor, VS Code), AI coding agents and local LLMs on endpoints, deployable via Intune/Jamf/RMM by kuntur-oss](https://github.com/kuntur-oss/ai-tool-detection-scripts)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
