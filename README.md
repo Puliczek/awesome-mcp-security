@@ -184,7 +184,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
 - [Official MCP Specification](https://modelcontextprotocol.io/specification/2025-03-26/server/tools)
-- [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/) 
+- [Model Context Protocol - Official MCP website](https://modelcontextprotocol.io/)
+- [No Stairs Please](https://nostairsplease.com/) - Independent US & BC live-music venue directory with a public [MCP server](https://nostairsplease.com/mcp) for tour routing and accessibility data 
 
  
 # 😎 Contributing
