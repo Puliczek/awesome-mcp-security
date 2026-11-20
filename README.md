@@ -180,6 +180,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 💻 Other Useful Resources
 
+- (20.11.2026) [Awesome Coding Agent Security by nukoe-labs](https://github.com/nukoe-labs/awesome-coding-agent-security) - Incidents, vendor advisories and defenses for coding agents (Claude Code, Cursor, Copilot, Codex, Gemini CLI) and the MCP servers they run, with primary sources
 - [Awesome Cybersecurity Agentic AI](https://github.com/raphabot/awesome-cybersecurity-agentic-ai) - Collection of resources on using AI agents for security use cases
 - (31.03.2025) [I gave Claude root access to my server... Model Context Protocol explained by Fireship](https://www.youtube.com/watch?v=HyzlYwjoXOQ)
 - (17.03.2025) [Model Context Protocol (MCP): The Key To Agentic AI by Jack Herrington](https://www.youtube.com/watch?v=VChRPFUzJGA)
