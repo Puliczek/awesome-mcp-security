@@ -61,7 +61,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - (2025-04) [MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System by Sonu Kumar, Anubhav Girdhar, Ritesh Patil, Divyansh Tripathi](https://arxiv.org/abs/2504.12757)
 - (2025-04) [MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits by Brandon Radosevich, John Halloran](https://arxiv.org/abs/2504.03767)
 - (2025-03) [Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions by Xinyi Hou, Yanjie Zhao, Shenao Wang, Haoyu Wang](https://arxiv.org/abs/2503.23278)
-- (2026-03) [Can Model Internals Detect MCP Tool Poisoning That Text Analysis Cannot? by Nicole Leung](https://doi.org/10.5281/zenodo.19990741)
+- (2026-03) [Can Model Internals Detect MCP Tool Poisoning That Text Analysis Cannot? by ithiria894](https://doi.org/10.5281/zenodo.19990741)
 
 ## 📺 Videos
 
