@@ -75,6 +75,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 📕 Articles, X threads and Blog Posts
 
+- (11.11.2026) [OPA behind AuthZEN: a policy decision point for MCP tool calls by Argo](https://iamops.dev/opa-authzen-mcp-tool-call-policy/)
+- (11.11.2026) [Protecting an MCP server with OAuth: refusing token passthrough by Argo](https://iamops.dev/mcp-server-no-token-passthrough/)
 - (14.08.2025) [MCP Security Best Practices: How to Prevent Risks and Threats by Dmitriy Redkin](https://mcpmanager.ai/blog/mcp-security-best-practices/)
 - (08.08.2025) [we hijacked cursor via jira mcp by submitting a support ticket by @mbrg0](https://x.com/mbrg0/status/1953932780855013682)
 - (28.07.2025) [We built the security layer MCP always needed by Cliff Smith](https://blog.trailofbits.com/2025/07/28/we-built-the-security-layer-mcp-always-needed/)
