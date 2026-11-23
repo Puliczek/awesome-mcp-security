@@ -155,6 +155,8 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
+- [mcp-audit](https://github.com/PRAVIN-952006/mcp-audit) - Zero-dependency MCP security scanner, live stdio & Streamable-HTTP/SSE JSON-RPC 2.0 prober, Unicode Tag steganography decoder, SHA-256 rug-pull lockfile verifier, and GitHub Marketplace Action (SARIF 2.1.0).
+
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
