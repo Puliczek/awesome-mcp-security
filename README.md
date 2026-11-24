@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [heuristicolab/ctxfw - Open-core (Apache 2.0) local `stdio` MCP gatekeeper, deterministic indirect prompt-injection sieve (0.33 ms P50, OWASP 2-2-5 PR #124, Glama Grade A), and Tree-sitter AST pruner (-42.9% to -90.2% tokens) with zero external telemetry](https://github.com/heuristicolab/ctxfw)
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
