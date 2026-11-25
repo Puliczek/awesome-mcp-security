@@ -154,6 +154,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [MCPDiet](https://github.com/Gong-shijie/mcpdiet) - Open-core MCP security auditor, token-budget profiler, and cross-IDE config sync CLI (plus a zero-upload client-side web scanner at [mcp.runglab.dev](https://mcp.runglab.dev)). Detects hardcoded secrets (`MCP001`), unpinned `npx @latest` / cleartext HTTP supply-chain risks (`MCP002`), cross-IDE config drift (`MCP003`), hidden Unicode Tag (`U+E0000–U+E007F`) / BiDi Trojan Source & prompt-injection tool poisoning (`MCP004`), and context token bloat (`MCP005`), with SARIF 2.1.0 CI output.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
