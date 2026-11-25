@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [ChainGuard MCP by EzeLich](https://github.com/EzeLich/chainguard-mcp) - 15-tool Web3 and AI security firewall MCP server detecting invisible zero-width Unicode tool poisoning, prompt injection, EIP-7702 EOA delegation hijacks, Solana Token-2022 drainers, and malicious EVM transaction calldata.
 
 ## 💻 Other Useful Resources
 
