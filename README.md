@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [agentic-perimeter by jonadas-tech](https://github.com/jonadas-tech/agentic-perimeter) - Passive external attack surface scanner (Apache-2.0, `uvx`) auditing MCP supply-chain provenance across the Official MCP Registry, npm, and PyPI, third-party hosted proxies, DNSSEC/DNS-AID records, and RFC 9728 OAuth metadata.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
