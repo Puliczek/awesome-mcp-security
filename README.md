@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [MCPGuard by Zluowa](https://github.com/Zluowa/mcpguard-kit) - Zero-dependency security & Context Tax auditor for `mcp.json`/JSONC, `AGENTS.md`, `CLAUDE.md`, `.cursorrules`, and `SKILL.md` (Unicode/Bidi prompt-injection detection, hardcoded secret scanning, unpinned `npx`/`uvx` supply-chain checks, SARIF 2.1.0 & GitHub Action).
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
@@ -156,6 +157,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
+- [MCPGuard MCP Server by Zluowa](https://github.com/Zluowa/mcpguard-kit) - Zero-dependency 5-tool local stdio MCP server (`npx --yes github:Zluowa/mcpguard-kit mcp-server`) for auditing MCP configs, sanitizing secrets/invisible prompt-injection characters, and enforcing USD/token loop circuit breakers.
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
