@@ -154,6 +154,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [Octocode](https://github.com/bgauryy/octocode-mcp) - AI-powered developer assistant that enables advanced research, analysis and discovery across GitHub ecosystem. Allow smart search of security patterns across repositories.
 - [Defenter](https://defenter.ai/) - Real-time semantic monitoring of AI coding agents and MCP server communication to protect from data leaks, context contamination, and malicious prompt injections.
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
+- [mcp-tripwire - Pin MCP tool descriptions and detect silent changes (rug pulls, tool poisoning) by NestDaddy](https://github.com/nestdaddy-ai/mcp-tripwire) - Open-source CLI that reads your Claude, Cursor, VS Code and Windsurf configs, pins every tool description and schema, and fails when a server later changes or adds tools. Also scans descriptions for prompt-injection patterns; works in CI.
 
 ## 💾 MCP Security Servers
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
