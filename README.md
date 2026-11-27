@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- (27.11.2026) [mcprism by HUA503](https://github.com/HUA503/mcprism) - Go CLI for MCP configuration and source-code security checks (JS/TS, Python, Go, Rust), Registry metadata audits, and policy enforcement in CI with SARIF. Static scans run offline; live metadata enumeration is opt-in and never calls tools.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
