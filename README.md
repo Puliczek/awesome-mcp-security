@@ -177,6 +177,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
     - [pomerium/mcp-app-demo](https://github.com/pomerium/mcp-app-demo)
     - [pomerium/mcp-servers](https://github.com/pomerium/mcp-servers)
 - [urldna/mcp](https://github.com/urldna/mcp) - urlDNA MCP server for phishing detection and URL analysis through advanced contextual scanning.
+- [Caelo by arthi-arumugam-git](https://github.com/arthi-arumugam-git/caelo) - Local MCP server (and CLI) that scans a project for the leaks common in AI-built apps: exposed API keys and secrets, Supabase service-role keys, secrets shipped to the browser bundle, open Firebase rules, missing row-level security, and committed .env files. Reads files only, uploads nothing.
 
 ## 💻 Other Useful Resources
 
