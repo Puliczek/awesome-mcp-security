@@ -156,7 +156,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 - [MCP-Dandan](https://github.com/82ch/MCP-Dandan) - Desktop security tool for real-time monitoring, threat detection, and control of MCP tool invocations.
 
 ## 💾 MCP Security Servers
-- [Insomnia Security MCP](https://github.com/vulnz/insomnia-mcp) - All-in-one SAST/taint, live secret validation, Web DAST, OSINT, 21,100+ 1-Day CVE verification, MCP security auditing (`insomnia_mcp_audit`, `insomnia_mcp_risk`), and built-in Scope Firewall (160 tools, remote Streamable-HTTP & local).
+- [Insomnia Security MCP](https://github.com/CQR-Cybersecurity-LLC/insomnia-mcp) - All-in-one SAST/taint, live secret validation, Web DAST, OSINT, 21,100+ 1-Day CVE verification, MCP security auditing (`insomnia_mcp_audit`, `insomnia_mcp_risk`), and built-in Scope Firewall (160 tools, remote Streamable-HTTP & local).
 - [Nuclei MCP Integration by addcontent](https://github.com/addcontent/nuclei-mcp) - Provides a standardized MCP interface for Nuclei, a fast and customizable vulnerabilty scanner, for performing scans and managing vulnerablity assessments
 - [Illumio MCP Server by alexgoller](https://github.com/alexgoller/illumio-mcp-server) - MCP server for interacting with Illumio Policy Compute Engine for Illumio workload management, label operations, traffic flow analysis
 - [TriageMCP by eversinc33](https://github.com/eversinc33/TriageMCP) - MCP server for doing basic static triage of Portable Executable (PE) files
