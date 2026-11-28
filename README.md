@@ -129,6 +129,7 @@ Official Security Considerations from the [Official MCP Specification Rev: 2025-
 
 ## 🧑‍🚀 Tools and code
 
+- [mcp-audit by cybrxprt](https://github.com/cybrxprt/mcp-audit) - Zero-dependency MCP security scanner CLI, SARIF GitHub Action, and VS Code / Cursor extension for detecting tool poisoning, hardcoded tokens, unpinned packages, and broad filesystem scopes.
 - [MCP Audit Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode with ease](https://github.com/Agentity-com/mcp-audit-extension)
 - [Secure MCP - Security auditing tool to detect MCP vulnerabilities and misconfigurations by makalin](https://github.com/makalin/SecureMCP)
 - [mcp-context-protector - Security wrapper for MCP servers by trailofbits](https://github.com/trailofbits/mcp-context-protector)
